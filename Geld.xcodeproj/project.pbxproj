@@ -10,6 +10,14 @@
 		E16FC5032B91563700929946 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5022B91563700929946 /* LoginScreen.swift */; };
 		E16FC5062B915AC100929946 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5052B915AC100929946 /* LoginViewModel.swift */; };
 		E16FC5092B915DF500929946 /* SwiftUICoordinator in Frameworks */ = {isa = PBXBuildFile; productRef = E16FC5082B915DF500929946 /* SwiftUICoordinator */; };
+		E16FC5112B92298200929946 /* Dependencies in Resources */ = {isa = PBXBuildFile; fileRef = E16FC50C2B92298200929946 /* Dependencies */; };
+		E16FC5122B92298200929946 /* New Group in Resources */ = {isa = PBXBuildFile; fileRef = E16FC50D2B92298200929946 /* New Group */; };
+		E16FC5132B92298200929946 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC50E2B92298200929946 /* AppCoordinator.swift */; };
+		E16FC5142B92298200929946 /* TesteCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC50F2B92298200929946 /* TesteCoordinator.swift */; };
+		E16FC5152B92298200929946 /* Transitions in Resources */ = {isa = PBXBuildFile; fileRef = E16FC5102B92298200929946 /* Transitions */; };
+		E16FC5182B922A1300929946 /* HomeRoutr.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5172B922A1300929946 /* HomeRoutr.swift */; };
+		E16FC51A2B922A1D00929946 /* HomeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5192B922A1D00929946 /* HomeAction.swift */; };
+		E16FC51C2B922A2800929946 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC51B2B922A2800929946 /* HomeCoordinator.swift */; };
 		E17678882B8EA44D00913490 /* GeldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17678872B8EA44D00913490 /* GeldApp.swift */; };
 		E176788A2B8EA44D00913490 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17678892B8EA44D00913490 /* ContentView.swift */; };
 		E176788C2B8EA45600913490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E176788B2B8EA45600913490 /* Assets.xcassets */; };
@@ -48,6 +56,14 @@
 /* Begin PBXFileReference section */
 		E16FC5022B91563700929946 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		E16FC5052B915AC100929946 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		E16FC50C2B92298200929946 /* Dependencies */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Dependencies; sourceTree = "<group>"; };
+		E16FC50D2B92298200929946 /* New Group */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "New Group"; sourceTree = "<group>"; };
+		E16FC50E2B92298200929946 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		E16FC50F2B92298200929946 /* TesteCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TesteCoordinator.swift; sourceTree = "<group>"; };
+		E16FC5102B92298200929946 /* Transitions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Transitions; sourceTree = "<group>"; };
+		E16FC5172B922A1300929946 /* HomeRoutr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRoutr.swift; sourceTree = "<group>"; };
+		E16FC5192B922A1D00929946 /* HomeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAction.swift; sourceTree = "<group>"; };
+		E16FC51B2B922A2800929946 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		E17678842B8EA44D00913490 /* Geld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E17678872B8EA44D00913490 /* GeldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeldApp.swift; sourceTree = "<group>"; };
 		E17678892B8EA44D00913490 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,6 +124,7 @@
 		E16FC4F52B9153C200929946 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				E16FC5162B922A0300929946 /* Coordinator */,
 				E16FC4F92B91544D00929946 /* Action */,
 				E16FC4FA2B91545600929946 /* Models */,
 				E16FC4FB2B91545E00929946 /* Screens */,
@@ -176,6 +193,7 @@
 		E16FC4FF2B91551A00929946 /* Config */ = {
 			isa = PBXGroup;
 			children = (
+				E16FC50A2B92293200929946 /* Coordinator */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -201,6 +219,36 @@
 				E16FC5052B915AC100929946 /* LoginViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E16FC50A2B92293200929946 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				E16FC50E2B92298200929946 /* AppCoordinator.swift */,
+				E16FC50C2B92298200929946 /* Dependencies */,
+				E16FC50D2B92298200929946 /* New Group */,
+				E16FC50F2B92298200929946 /* TesteCoordinator.swift */,
+				E16FC5102B92298200929946 /* Transitions */,
+				E16FC50B2B92296C00929946 /* New Group */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		E16FC50B2B92296C00929946 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		E16FC5162B922A0300929946 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				E16FC5172B922A1300929946 /* HomeRoutr.swift */,
+				E16FC5192B922A1D00929946 /* HomeAction.swift */,
+				E16FC51B2B922A2800929946 /* HomeCoordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 		E176787B2B8EA44D00913490 = {
@@ -372,9 +420,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E16FC5112B92298200929946 /* Dependencies in Resources */,
 				E17678CE2B8EAE3900913490 /* .swiftlint.yml in Resources */,
 				E176788F2B8EA45600913490 /* Preview Assets.xcassets in Resources */,
 				E17678D22B8EB9B000913490 /* Localizable.xcstrings in Resources */,
+				E16FC5152B92298200929946 /* Transitions in Resources */,
+				E16FC5122B92298200929946 /* New Group in Resources */,
 				E176788C2B8EA45600913490 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,8 +459,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E16FC5142B92298200929946 /* TesteCoordinator.swift in Sources */,
 				E16FC5062B915AC100929946 /* LoginViewModel.swift in Sources */,
+				E16FC51C2B922A2800929946 /* HomeCoordinator.swift in Sources */,
+				E16FC51A2B922A1D00929946 /* HomeAction.swift in Sources */,
 				E176788A2B8EA44D00913490 /* ContentView.swift in Sources */,
+				E16FC5182B922A1300929946 /* HomeRoutr.swift in Sources */,
+				E16FC5132B92298200929946 /* AppCoordinator.swift in Sources */,
 				E17678882B8EA44D00913490 /* GeldApp.swift in Sources */,
 				E16FC5032B91563700929946 /* LoginScreen.swift in Sources */,
 			);
@@ -554,6 +610,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -584,6 +641,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
