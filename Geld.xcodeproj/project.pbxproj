@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E16FC5032B91563700929946 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5022B91563700929946 /* LoginScreen.swift */; };
+		E16FC5062B915AC100929946 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5052B915AC100929946 /* LoginViewModel.swift */; };
+		E16FC5092B915DF500929946 /* SwiftUICoordinator in Frameworks */ = {isa = PBXBuildFile; productRef = E16FC5082B915DF500929946 /* SwiftUICoordinator */; };
 		E17678882B8EA44D00913490 /* GeldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17678872B8EA44D00913490 /* GeldApp.swift */; };
 		E176788A2B8EA44D00913490 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17678892B8EA44D00913490 /* ContentView.swift */; };
 		E176788C2B8EA45600913490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E176788B2B8EA45600913490 /* Assets.xcassets */; };
@@ -43,6 +46,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E16FC5022B91563700929946 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		E16FC5052B915AC100929946 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		E17678842B8EA44D00913490 /* Geld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E17678872B8EA44D00913490 /* GeldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeldApp.swift; sourceTree = "<group>"; };
 		E17678892B8EA44D00913490 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -82,6 +87,7 @@
 				E17678C92B8EAAD800913490 /* FirebaseStorage in Frameworks */,
 				E17678AD2B8EAAD800913490 /* FirebaseDynamicLinks in Frameworks */,
 				E17678B12B8EAAD800913490 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				E16FC5092B915DF500929946 /* SwiftUICoordinator in Frameworks */,
 				E17678C12B8EAAD800913490 /* FirebaseMessaging in Frameworks */,
 				E17678BD2B8EAAD800913490 /* FirebaseInstallations in Frameworks */,
 			);
@@ -90,6 +96,113 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E16FC4F42B9153B800929946 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E16FC5042B915AAA00929946 /* ViewModels */,
+				E16FC5012B91562300929946 /* Screens */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E16FC4F52B9153C200929946 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E16FC4F92B91544D00929946 /* Action */,
+				E16FC4FA2B91545600929946 /* Models */,
+				E16FC4FB2B91545E00929946 /* Screens */,
+				E16FC4FD2B91547600929946 /* ViewModels */,
+				E16FC4FC2B91546C00929946 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E16FC4F62B9153CB00929946 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		E16FC4F72B9153DB00929946 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E16FC4F82B91543E00929946 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E16FC4F92B91544D00929946 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		E16FC4FA2B91545600929946 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E16FC4FB2B91545E00929946 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		E16FC4FC2B91546C00929946 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E16FC4FD2B91547600929946 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E16FC4FF2B91551A00929946 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		E16FC5002B91552400929946 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E16FC5012B91562300929946 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E16FC5022B91563700929946 /* LoginScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		E16FC5042B915AAA00929946 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E16FC5052B915AC100929946 /* LoginViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		E176787B2B8EA44D00913490 = {
 			isa = PBXGroup;
 			children = (
@@ -147,7 +260,10 @@
 		E17678D32B8EBB1E00913490 /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				E16FC4FF2B91551A00929946 /* Config */,
 				E17678D42B8EBB2C00913490 /* Features */,
+				E16FC5002B91552400929946 /* Resources */,
+				E16FC4F72B9153DB00929946 /* Utilities */,
 			);
 			path = Code;
 			sourceTree = "<group>";
@@ -155,6 +271,10 @@
 		E17678D42B8EBB2C00913490 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				E16FC4F82B91543E00929946 /* Common */,
+				E16FC4F52B9153C200929946 /* Home */,
+				E16FC4F42B9153B800929946 /* Login */,
+				E16FC4F62B9153CB00929946 /* Settings */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -204,6 +324,7 @@
 				E17678C62B8EAAD800913490 /* FirebaseRemoteConfigSwift */,
 				E17678C82B8EAAD800913490 /* FirebaseStorage */,
 				E17678CA2B8EAAD800913490 /* FirebaseStorageCombine-Community */,
+				E16FC5082B915DF500929946 /* SwiftUICoordinator */,
 			);
 			productName = Geld;
 			productReference = E17678842B8EA44D00913490 /* Geld.app */;
@@ -235,6 +356,7 @@
 			mainGroup = E176787B2B8EA44D00913490;
 			packageReferences = (
 				E17678952B8EAAD700913490 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				E16FC5072B915DF500929946 /* XCRemoteSwiftPackageReference "SwiftUICoordinator" */,
 			);
 			productRefGroup = E17678852B8EA44D00913490 /* Products */;
 			projectDirPath = "";
@@ -286,8 +408,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E16FC5062B915AC100929946 /* LoginViewModel.swift in Sources */,
 				E176788A2B8EA44D00913490 /* ContentView.swift in Sources */,
 				E17678882B8EA44D00913490 /* GeldApp.swift in Sources */,
+				E16FC5032B91563700929946 /* LoginScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +621,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		E16FC5072B915DF500929946 /* XCRemoteSwiftPackageReference "SwiftUICoordinator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/erikdrobne/SwiftUICoordinator";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.2;
+			};
+		};
 		E17678952B8EAAD700913490 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -508,6 +640,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		E16FC5082B915DF500929946 /* SwiftUICoordinator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E16FC5072B915DF500929946 /* XCRemoteSwiftPackageReference "SwiftUICoordinator" */;
+			productName = SwiftUICoordinator;
+		};
 		E17678962B8EAAD800913490 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = E17678952B8EAAD700913490 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
