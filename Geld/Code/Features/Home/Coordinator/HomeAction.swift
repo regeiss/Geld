@@ -6,3 +6,15 @@
 //
 
 import Foundation
+import SwiftUICoordinator
+
+enum HomeAction: CoordinatorAction
+{
+    case banco
+    case carteira
+    case conta
+    case cartao
+    case dashboard
+    case despesas
+    case perfil
+}

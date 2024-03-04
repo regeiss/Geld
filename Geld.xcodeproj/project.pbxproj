@@ -13,11 +13,13 @@
 		E16FC5112B92298200929946 /* Dependencies in Resources */ = {isa = PBXBuildFile; fileRef = E16FC50C2B92298200929946 /* Dependencies */; };
 		E16FC5122B92298200929946 /* New Group in Resources */ = {isa = PBXBuildFile; fileRef = E16FC50D2B92298200929946 /* New Group */; };
 		E16FC5132B92298200929946 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC50E2B92298200929946 /* AppCoordinator.swift */; };
-		E16FC5142B92298200929946 /* TesteCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC50F2B92298200929946 /* TesteCoordinator.swift */; };
 		E16FC5152B92298200929946 /* Transitions in Resources */ = {isa = PBXBuildFile; fileRef = E16FC5102B92298200929946 /* Transitions */; };
-		E16FC5182B922A1300929946 /* HomeRoutr.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5172B922A1300929946 /* HomeRoutr.swift */; };
+		E16FC5182B922A1300929946 /* HomeRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5172B922A1300929946 /* HomeRoute.swift */; };
 		E16FC51A2B922A1D00929946 /* HomeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5192B922A1D00929946 /* HomeAction.swift */; };
 		E16FC51C2B922A2800929946 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC51B2B922A2800929946 /* HomeCoordinator.swift */; };
+		E16FC51F2B94D06800929946 /* CalendarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC51E2B94D06800929946 /* CalendarExtension.swift */; };
+		E16FC5212B94D08600929946 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5202B94D08600929946 /* DateExtension.swift */; };
+		E16FC5232B94D0CC00929946 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5222B94D0CC00929946 /* StringExtension.swift */; };
 		E17678882B8EA44D00913490 /* GeldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17678872B8EA44D00913490 /* GeldApp.swift */; };
 		E176788A2B8EA44D00913490 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17678892B8EA44D00913490 /* ContentView.swift */; };
 		E176788C2B8EA45600913490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E176788B2B8EA45600913490 /* Assets.xcassets */; };
@@ -59,11 +61,13 @@
 		E16FC50C2B92298200929946 /* Dependencies */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Dependencies; sourceTree = "<group>"; };
 		E16FC50D2B92298200929946 /* New Group */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "New Group"; sourceTree = "<group>"; };
 		E16FC50E2B92298200929946 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
-		E16FC50F2B92298200929946 /* TesteCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TesteCoordinator.swift; sourceTree = "<group>"; };
 		E16FC5102B92298200929946 /* Transitions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Transitions; sourceTree = "<group>"; };
-		E16FC5172B922A1300929946 /* HomeRoutr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRoutr.swift; sourceTree = "<group>"; };
+		E16FC5172B922A1300929946 /* HomeRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRoute.swift; sourceTree = "<group>"; };
 		E16FC5192B922A1D00929946 /* HomeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAction.swift; sourceTree = "<group>"; };
 		E16FC51B2B922A2800929946 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		E16FC51E2B94D06800929946 /* CalendarExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarExtension.swift; sourceTree = "<group>"; };
+		E16FC5202B94D08600929946 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		E16FC5222B94D0CC00929946 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		E17678842B8EA44D00913490 /* Geld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E17678872B8EA44D00913490 /* GeldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeldApp.swift; sourceTree = "<group>"; };
 		E17678892B8EA44D00913490 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -144,6 +148,7 @@
 		E16FC4F72B9153DB00929946 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				E16FC51D2B94D04D00929946 /* Extensions */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -227,7 +232,6 @@
 				E16FC50E2B92298200929946 /* AppCoordinator.swift */,
 				E16FC50C2B92298200929946 /* Dependencies */,
 				E16FC50D2B92298200929946 /* New Group */,
-				E16FC50F2B92298200929946 /* TesteCoordinator.swift */,
 				E16FC5102B92298200929946 /* Transitions */,
 				E16FC50B2B92296C00929946 /* New Group */,
 			);
@@ -244,11 +248,21 @@
 		E16FC5162B922A0300929946 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
-				E16FC5172B922A1300929946 /* HomeRoutr.swift */,
 				E16FC5192B922A1D00929946 /* HomeAction.swift */,
 				E16FC51B2B922A2800929946 /* HomeCoordinator.swift */,
+				E16FC5172B922A1300929946 /* HomeRoute.swift */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		E16FC51D2B94D04D00929946 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E16FC51E2B94D06800929946 /* CalendarExtension.swift */,
+				E16FC5202B94D08600929946 /* DateExtension.swift */,
+				E16FC5222B94D0CC00929946 /* StringExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		E176787B2B8EA44D00913490 = {
@@ -459,14 +473,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E16FC5142B92298200929946 /* TesteCoordinator.swift in Sources */,
 				E16FC5062B915AC100929946 /* LoginViewModel.swift in Sources */,
+				E16FC5212B94D08600929946 /* DateExtension.swift in Sources */,
 				E16FC51C2B922A2800929946 /* HomeCoordinator.swift in Sources */,
+				E16FC51F2B94D06800929946 /* CalendarExtension.swift in Sources */,
 				E16FC51A2B922A1D00929946 /* HomeAction.swift in Sources */,
 				E176788A2B8EA44D00913490 /* ContentView.swift in Sources */,
-				E16FC5182B922A1300929946 /* HomeRoutr.swift in Sources */,
+				E16FC5182B922A1300929946 /* HomeRoute.swift in Sources */,
 				E16FC5132B92298200929946 /* AppCoordinator.swift in Sources */,
 				E17678882B8EA44D00913490 /* GeldApp.swift in Sources */,
+				E16FC5232B94D0CC00929946 /* StringExtension.swift in Sources */,
 				E16FC5032B91563700929946 /* LoginScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
