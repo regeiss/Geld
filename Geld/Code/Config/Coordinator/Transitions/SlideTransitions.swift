@@ -1,25 +1,30 @@
 //
 //  SlideTransitions.swift
-//  ProjAutoCare
+//  Geld
 //
-//  Created by Roberto Edgar Geiss on 24/11/23.
+//  Created by Roberto Edgar Geiss on 04/03/24.
 //
 
+import Foundation
 import UIKit
 
-class SlideTransition: NSObject, UIViewControllerAnimatedTransitioning {
+class SlideTransition: NSObject, UIViewControllerAnimatedTransitioning 
+{
     let isPresenting: Bool
     
-    init(isPresenting: Bool) {
+    init(isPresenting: Bool) 
+    {
         self.isPresenting = isPresenting
         super.init()
     }
     
-    func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
+    func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval 
+    {
         0.5
     }
     
-    func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
+    func animateTransition(using transitionContext: UIViewControllerContextTransitioning) 
+    {
         let key = isPresenting ? UITransitionContextViewControllerKey.to : UITransitionContextViewControllerKey.from
         guard let controller = transitionContext.viewController(forKey: key) else { return }
         
@@ -41,12 +46,15 @@ class SlideTransition: NSObject, UIViewControllerAnimatedTransitioning {
     }
 }
 
-final class SlideTransitionDelegate: NSObject, UIViewControllerTransitioningDelegate {
-    func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+final class SlideTransitionDelegate: NSObject, UIViewControllerTransitioningDelegate
+{
+    func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? 
+    {
         return SlideTransition(isPresenting: true)
     }
     
-    func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+    func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? 
+    {
         return SlideTransition(isPresenting: false)
     }
 }

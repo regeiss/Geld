@@ -1,8 +1,8 @@
 //
 //  DependencyContainer.swift
-//  ProjAutoCare
+//  Geld
 //
-//  Created by Roberto Edgar Geiss on 25/10/23.
+//  Created by Roberto Edgar Geiss on 04/03/24.
 //
 
 import SwiftUI
@@ -18,7 +18,7 @@ final class DependencyContainer
     
     private(set) var appCoordinator: AppCoordinator?
     
-    func set(_ coordinator: AppCoordinator) 
+    func set(_ coordinator: AppCoordinator)
     {
         guard appCoordinator == nil
         else { return }
@@ -27,9 +27,10 @@ final class DependencyContainer
     }
 }
 
-extension DependencyContainer: CoordinatorFactory 
+
+extension DependencyContainer: CoordinatorFactory
 {
-    func makeAppCoordinator(window: UIWindow) -> AppCoordinator 
+    func makeAppCoordinator(window: UIWindow) -> AppCoordinator
     {
         return AppCoordinator(
             window: window,
@@ -62,7 +63,7 @@ extension DependencyContainer: CoordinatorFactory
 //        )
 //    }
 //    
-//    func makeRelatorioCoordinator(parent: Coordinator) -> RelatorioCoordinator 
+//    func makeRelatorioCoordinator(parent: Coordinator) -> RelatorioCoordinator
 //    {
 //        return RelatorioCoordinator(
 //            parent: parent,
@@ -85,9 +86,4 @@ extension DependencyContainer: CoordinatorFactory
 //            navigationController: self.navigationController
 //        )
 //    }
-}
-
-extension DependencyContainer 
-{
-    static let mock = DependencyContainer()
 }

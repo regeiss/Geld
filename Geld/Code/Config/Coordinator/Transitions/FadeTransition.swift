@@ -1,10 +1,11 @@
 //
 //  FadeTransition.swift
-//  ProjAutoCare
+//  Geld
 //
-//  Created by Roberto Edgar Geiss on 25/10/23.
+//  Created by Roberto Edgar Geiss on 04/03/24.
 //
 
+import Foundation
 import UIKit
 import SwiftUICoordinator
 
@@ -16,14 +17,14 @@ class FadeTransition: NSObject, Transitionable
         return false  // (fromRoute as? CustomShapesRoute == .customShapes && toRoute as? CustomShapesRoute == .star)
     }
     
-    func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval 
+    func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval
     {
         return 0.3
     }
     
-    func animateTransition(using transitionContext: UIViewControllerContextTransitioning) 
+    func animateTransition(using transitionContext: UIViewControllerContextTransitioning)
     {
-        guard let toView = transitionContext.view(forKey: .to) 
+        guard let toView = transitionContext.view(forKey: .to)
         else
         {
             transitionContext.completeTransition(false)

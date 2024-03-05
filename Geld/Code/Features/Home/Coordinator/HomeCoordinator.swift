@@ -23,7 +23,7 @@ class HomeCoordinator: Routing
     init(
         parent: Coordinator?,
         navigationController: NavigationController,
-        startRoute: HomeRoute = .dashboard,
+        startRoute: HomeRoute = .home,
         factory: CoordinatorFactory
     ) {
         self.parent = parent
@@ -85,20 +85,13 @@ extension HomeCoordinator: RouterViewFactory
     {
         switch route
         {
-        case .menuPrincipal:
-            MenuInicialScreen<MenuPrincipalCoordinator>()
-        case .abastecimento:
-            AbastecimentoListaScreen<AbastecimentoCoordinator>()
+        case .home:
+            HomeScreen<HomeCoordinator>()
+
         case .dashboard:
             EmptyView()
-        case .cadastros:
-            CadastroListaScreen<CadastroCoordinator>()
-        case .servico:
-            ServicoListaScreen<ServicoCoordinator>()
-        case .relatorios:
-            RelatorioListaScreen<RelatorioCoordinator>()
-        case .alertas:
-            AlertaListaScreen<AlertaCoordinator>()
+        default:
+            EmptyView()
         }
     }
 }

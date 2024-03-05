@@ -16,5 +16,6 @@ enum HomeAction: CoordinatorAction
     case cartao
     case dashboard
     case despesas
+    case home
     case perfil
 }

@@ -11,9 +11,13 @@ import SwiftUICoordinator
 enum HomeRoute: NavigationRoute
 {
     case banco
+    case carteira
     case conta
     case cartao
     case dashboard
+    case despesas
+    case home
+    case perfil
     
     var title: String?
     {

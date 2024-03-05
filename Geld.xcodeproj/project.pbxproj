@@ -10,16 +10,19 @@
 		E16FC5032B91563700929946 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5022B91563700929946 /* LoginScreen.swift */; };
 		E16FC5062B915AC100929946 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5052B915AC100929946 /* LoginViewModel.swift */; };
 		E16FC5092B915DF500929946 /* SwiftUICoordinator in Frameworks */ = {isa = PBXBuildFile; productRef = E16FC5082B915DF500929946 /* SwiftUICoordinator */; };
-		E16FC5112B92298200929946 /* Dependencies in Resources */ = {isa = PBXBuildFile; fileRef = E16FC50C2B92298200929946 /* Dependencies */; };
-		E16FC5122B92298200929946 /* New Group in Resources */ = {isa = PBXBuildFile; fileRef = E16FC50D2B92298200929946 /* New Group */; };
 		E16FC5132B92298200929946 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC50E2B92298200929946 /* AppCoordinator.swift */; };
-		E16FC5152B92298200929946 /* Transitions in Resources */ = {isa = PBXBuildFile; fileRef = E16FC5102B92298200929946 /* Transitions */; };
 		E16FC5182B922A1300929946 /* HomeRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5172B922A1300929946 /* HomeRoute.swift */; };
 		E16FC51A2B922A1D00929946 /* HomeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5192B922A1D00929946 /* HomeAction.swift */; };
 		E16FC51C2B922A2800929946 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC51B2B922A2800929946 /* HomeCoordinator.swift */; };
 		E16FC51F2B94D06800929946 /* CalendarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC51E2B94D06800929946 /* CalendarExtension.swift */; };
 		E16FC5212B94D08600929946 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5202B94D08600929946 /* DateExtension.swift */; };
 		E16FC5232B94D0CC00929946 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5222B94D0CC00929946 /* StringExtension.swift */; };
+		E16FC5262B96862900929946 /* CoordinatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5252B96862900929946 /* CoordinatorFactory.swift */; };
+		E16FC5282B96864A00929946 /* DeepLinkHander.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5272B96864A00929946 /* DeepLinkHander.swift */; };
+		E16FC52A2B96869C00929946 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5292B96869C00929946 /* DependencyContainer.swift */; };
+		E16FC52D2B96872600929946 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC52C2B96872600929946 /* FadeTransition.swift */; };
+		E16FC52F2B96874D00929946 /* SlideTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC52E2B96874D00929946 /* SlideTransitions.swift */; };
+		E16FC5312B968A7000929946 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5302B968A7000929946 /* HomeScreen.swift */; };
 		E17678882B8EA44D00913490 /* GeldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17678872B8EA44D00913490 /* GeldApp.swift */; };
 		E176788A2B8EA44D00913490 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17678892B8EA44D00913490 /* ContentView.swift */; };
 		E176788C2B8EA45600913490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E176788B2B8EA45600913490 /* Assets.xcassets */; };
@@ -58,16 +61,19 @@
 /* Begin PBXFileReference section */
 		E16FC5022B91563700929946 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		E16FC5052B915AC100929946 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
-		E16FC50C2B92298200929946 /* Dependencies */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Dependencies; sourceTree = "<group>"; };
-		E16FC50D2B92298200929946 /* New Group */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "New Group"; sourceTree = "<group>"; };
 		E16FC50E2B92298200929946 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
-		E16FC5102B92298200929946 /* Transitions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Transitions; sourceTree = "<group>"; };
 		E16FC5172B922A1300929946 /* HomeRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRoute.swift; sourceTree = "<group>"; };
 		E16FC5192B922A1D00929946 /* HomeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAction.swift; sourceTree = "<group>"; };
 		E16FC51B2B922A2800929946 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		E16FC51E2B94D06800929946 /* CalendarExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarExtension.swift; sourceTree = "<group>"; };
 		E16FC5202B94D08600929946 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		E16FC5222B94D0CC00929946 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		E16FC5252B96862900929946 /* CoordinatorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorFactory.swift; sourceTree = "<group>"; };
+		E16FC5272B96864A00929946 /* DeepLinkHander.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkHander.swift; sourceTree = "<group>"; };
+		E16FC5292B96869C00929946 /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
+		E16FC52C2B96872600929946 /* FadeTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
+		E16FC52E2B96874D00929946 /* SlideTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideTransitions.swift; sourceTree = "<group>"; };
+		E16FC5302B968A7000929946 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		E17678842B8EA44D00913490 /* Geld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E17678872B8EA44D00913490 /* GeldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeldApp.swift; sourceTree = "<group>"; };
 		E17678892B8EA44D00913490 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -177,6 +183,7 @@
 		E16FC4FB2B91545E00929946 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				E16FC5302B968A7000929946 /* HomeScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -230,19 +237,10 @@
 			isa = PBXGroup;
 			children = (
 				E16FC50E2B92298200929946 /* AppCoordinator.swift */,
-				E16FC50C2B92298200929946 /* Dependencies */,
-				E16FC50D2B92298200929946 /* New Group */,
-				E16FC5102B92298200929946 /* Transitions */,
-				E16FC50B2B92296C00929946 /* New Group */,
+				E16FC5242B96861200929946 /* Dependencies */,
+				E16FC52B2B96870700929946 /* Transitions */,
 			);
 			path = Coordinator;
-			sourceTree = "<group>";
-		};
-		E16FC50B2B92296C00929946 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 		E16FC5162B922A0300929946 /* Coordinator */ = {
@@ -263,6 +261,25 @@
 				E16FC5222B94D0CC00929946 /* StringExtension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E16FC5242B96861200929946 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				E16FC5252B96862900929946 /* CoordinatorFactory.swift */,
+				E16FC5272B96864A00929946 /* DeepLinkHander.swift */,
+				E16FC5292B96869C00929946 /* DependencyContainer.swift */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		E16FC52B2B96870700929946 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				E16FC52C2B96872600929946 /* FadeTransition.swift */,
+				E16FC52E2B96874D00929946 /* SlideTransitions.swift */,
+			);
+			path = Transitions;
 			sourceTree = "<group>";
 		};
 		E176787B2B8EA44D00913490 = {
@@ -434,12 +451,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E16FC5112B92298200929946 /* Dependencies in Resources */,
 				E17678CE2B8EAE3900913490 /* .swiftlint.yml in Resources */,
 				E176788F2B8EA45600913490 /* Preview Assets.xcassets in Resources */,
 				E17678D22B8EB9B000913490 /* Localizable.xcstrings in Resources */,
-				E16FC5152B92298200929946 /* Transitions in Resources */,
-				E16FC5122B92298200929946 /* New Group in Resources */,
 				E176788C2B8EA45600913490 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -473,13 +487,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E16FC52F2B96874D00929946 /* SlideTransitions.swift in Sources */,
+				E16FC52A2B96869C00929946 /* DependencyContainer.swift in Sources */,
+				E16FC52D2B96872600929946 /* FadeTransition.swift in Sources */,
 				E16FC5062B915AC100929946 /* LoginViewModel.swift in Sources */,
+				E16FC5282B96864A00929946 /* DeepLinkHander.swift in Sources */,
 				E16FC5212B94D08600929946 /* DateExtension.swift in Sources */,
 				E16FC51C2B922A2800929946 /* HomeCoordinator.swift in Sources */,
+				E16FC5262B96862900929946 /* CoordinatorFactory.swift in Sources */,
 				E16FC51F2B94D06800929946 /* CalendarExtension.swift in Sources */,
 				E16FC51A2B922A1D00929946 /* HomeAction.swift in Sources */,
 				E176788A2B8EA44D00913490 /* ContentView.swift in Sources */,
 				E16FC5182B922A1300929946 /* HomeRoute.swift in Sources */,
+				E16FC5312B968A7000929946 /* HomeScreen.swift in Sources */,
 				E16FC5132B92298200929946 /* AppCoordinator.swift in Sources */,
 				E17678882B8EA44D00913490 /* GeldApp.swift in Sources */,
 				E16FC5232B94D0CC00929946 /* StringExtension.swift in Sources */,

@@ -1,8 +1,26 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "Email" : {
+
+    },
+    "Hello, world!" : {
+
+    },
     "Key" : {
       "extractionState" : "manual"
+    },
+    "Login" : {
+
+    },
+    "Password" : {
+
+    },
+    "Tab 1" : {
+
+    },
+    "Tab 2" : {
+
     }
   },
   "version" : "1.0"

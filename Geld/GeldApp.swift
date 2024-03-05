@@ -19,7 +19,7 @@ struct GeldApp: App
     {
         WindowGroup
         {
-            ContentView()
+            
         }
     }
     

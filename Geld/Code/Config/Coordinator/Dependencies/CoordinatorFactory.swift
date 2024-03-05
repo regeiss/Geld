@@ -1,8 +1,8 @@
 //
 //  CoordinatorFactory.swift
-//  ProjAutoCare
+//  Geld
 //
-//  Created by Roberto Edgar Geiss on 25/10/23.
+//  Created by Roberto Edgar Geiss on 04/03/24.
 //
 
 import SwiftUI
@@ -10,7 +10,7 @@ import SwiftUICoordinator
 
 
 @MainActor
-protocol CoordinatorFactory 
+protocol CoordinatorFactory
 {
     func makeHomeCoordinator(parent: Coordinator) -> HomeCoordinator
 //    func makeAbastecimentoCoordinator(parent: Coordinator) -> AbastecimentoCoordinator
