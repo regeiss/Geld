@@ -13,34 +13,28 @@ struct HomeScreen<Coordinator: Routing>: View
     @EnvironmentObject var coordinator: Coordinator
     @StateObject var viewModel = ViewModel<Coordinator>()
     
+    @StateObject var tabBarController = TabBarController()
+    
     var body: some View
     {
-        TabView
+        ZStack
         {
-            Text("Tab 1")
-                .tabItem {
-                    Label("Tab 1",
-                          systemImage: "building.columns")
+            Group
+            {
+                if tabBarController.selectedTab == .mainView
+                {
+                    Text("main")
                 }
-            
-            Text("Tab 2")
-                .tabItem {
-                    Label("Tab 2",
-                          systemImage: "chart.bar.xaxis.ascending")
+                
+                if tabBarController.selectedTab == .secondView 
+                {
+                    Text("Second")
                 }
-            
-            Text("Tab 1")
-                .tabItem {
-                    Label("Tab 1",
-                          systemImage: "briefcase")
-                }
-            
-            Text("Tab 2")
-                .tabItem {
-                    Label("Tab 2",
-                          systemImage: "person.fill")
-                }
-        }.onAppear { viewModel.coordinator = coordinator }
+            }.padding(.bottom, 50)
+            TabBarView()
+        }
+        .onAppear { viewModel.coordinator = coordinator }
+        .environmentObject(tabBarController)
     }
 }
 
