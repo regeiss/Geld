@@ -27,4 +27,3 @@ class TabBarController: ObservableObject
     @Published var selectedTab: ContentTab = .mainView
     @Published var isShowingHeroView: Bool = false
 }
-

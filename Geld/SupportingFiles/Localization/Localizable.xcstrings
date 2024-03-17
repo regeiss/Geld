@@ -1,26 +1,114 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "Email" : {
+    "Add" : {
 
+    },
+    "Bill Pay" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A pagar"
+          }
+        }
+      }
+    },
+    "Cancel" : {
+
+    },
+    "Contas" : {
+
+    },
+    "Deposit" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deposito"
+          }
+        }
+      }
+    },
+    "Details" : {
+
+    },
+    "Detalhe" : {
+
+    },
+    "Done" : {
+
+    },
+    "Email" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Email"
+          }
+        }
+      }
     },
     "Hello, world!" : {
-
-    },
-    "Key" : {
-      "extractionState" : "manual"
+      "extractionState" : "stale",
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ola"
+          }
+        }
+      }
     },
     "Login" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Login"
+          }
+        }
+      }
+    },
+    "More" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mais"
+          }
+        }
+      }
+    },
+    "New Reminder" : {
 
     },
-    "main" : {
+    "Nome" : {
+
+    },
+    "Nova conta" : {
 
     },
     "Password" : {
-
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Senha"
+          }
+        }
+      }
     },
-    "Second" : {
-
+    "Transfer" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transferência"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"

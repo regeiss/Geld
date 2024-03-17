@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1071F6E2B9E855D004CFCAB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1071F6D2B9E855D004CFCAB /* GoogleService-Info.plist */; };
+		E1071F722B9E8B0F004CFCAB /* ContaRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071F712B9E8B0F004CFCAB /* ContaRepository.swift */; };
+		E1071F752B9E8B83004CFCAB /* ContaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071F742B9E8B83004CFCAB /* ContaModel.swift */; };
+		E1071F782B9E9939004CFCAB /* ContaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071F772B9E9939004CFCAB /* ContaViewModel.swift */; };
+		E1071F7C2B9FC3C7004CFCAB /* ContaListaScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071F7B2B9FC3C7004CFCAB /* ContaListaScreen.swift */; };
+		E1071F7E2B9FC791004CFCAB /* ContaDetalheView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071F7D2B9FC791004CFCAB /* ContaDetalheView.swift */; };
+		E1071F802BA67C7D004CFCAB /* ContaAddEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071F7F2BA67C7D004CFCAB /* ContaAddEditView.swift */; };
+		E1071F822BA68305004CFCAB /* ContaRepository+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071F812BA68305004CFCAB /* ContaRepository+Injection.swift */; };
+		E1071F852BA685FC004CFCAB /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = E1071F842BA685FC004CFCAB /* Factory */; };
+		E1071F882BA68937004CFCAB /* Firebase+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071F872BA68937004CFCAB /* Firebase+Injection.swift */; };
 		E132FC382B97FE6000183725 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E132FC372B97FE6000183725 /* TabBarController.swift */; };
 		E132FC3B2B98001D00183725 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E132FC3A2B98001D00183725 /* TabBarView.swift */; };
 		E132FC3D2B9800FE00183725 /* TabBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E132FC3C2B9800FE00183725 /* TabBarItemView.swift */; };
 		E16FC5032B91563700929946 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5022B91563700929946 /* LoginScreen.swift */; };
 		E16FC5062B915AC100929946 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5052B915AC100929946 /* LoginViewModel.swift */; };
-		E16FC5092B915DF500929946 /* SwiftUICoordinator in Frameworks */ = {isa = PBXBuildFile; productRef = E16FC5082B915DF500929946 /* SwiftUICoordinator */; };
-		E16FC5132B92298200929946 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC50E2B92298200929946 /* AppCoordinator.swift */; };
-		E16FC5182B922A1300929946 /* HomeRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5172B922A1300929946 /* HomeRoute.swift */; };
-		E16FC51A2B922A1D00929946 /* HomeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5192B922A1D00929946 /* HomeAction.swift */; };
-		E16FC51C2B922A2800929946 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC51B2B922A2800929946 /* HomeCoordinator.swift */; };
 		E16FC51F2B94D06800929946 /* CalendarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC51E2B94D06800929946 /* CalendarExtension.swift */; };
 		E16FC5212B94D08600929946 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5202B94D08600929946 /* DateExtension.swift */; };
 		E16FC5232B94D0CC00929946 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5222B94D0CC00929946 /* StringExtension.swift */; };
-		E16FC5262B96862900929946 /* CoordinatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5252B96862900929946 /* CoordinatorFactory.swift */; };
-		E16FC5282B96864A00929946 /* DeepLinkHander.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5272B96864A00929946 /* DeepLinkHander.swift */; };
-		E16FC52A2B96869C00929946 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5292B96869C00929946 /* DependencyContainer.swift */; };
-		E16FC52D2B96872600929946 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC52C2B96872600929946 /* FadeTransition.swift */; };
-		E16FC52F2B96874D00929946 /* SlideTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC52E2B96874D00929946 /* SlideTransitions.swift */; };
 		E16FC5312B968A7000929946 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5302B968A7000929946 /* HomeScreen.swift */; };
 		E17678882B8EA44D00913490 /* GeldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17678872B8EA44D00913490 /* GeldApp.swift */; };
 		E176788A2B8EA44D00913490 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17678892B8EA44D00913490 /* ContentView.swift */; };
@@ -62,23 +62,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E1071F6D2B9E855D004CFCAB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E1071F712B9E8B0F004CFCAB /* ContaRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContaRepository.swift; sourceTree = "<group>"; };
+		E1071F742B9E8B83004CFCAB /* ContaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContaModel.swift; sourceTree = "<group>"; };
+		E1071F772B9E9939004CFCAB /* ContaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContaViewModel.swift; sourceTree = "<group>"; };
+		E1071F7B2B9FC3C7004CFCAB /* ContaListaScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContaListaScreen.swift; sourceTree = "<group>"; };
+		E1071F7D2B9FC791004CFCAB /* ContaDetalheView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContaDetalheView.swift; sourceTree = "<group>"; };
+		E1071F7F2BA67C7D004CFCAB /* ContaAddEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContaAddEditView.swift; sourceTree = "<group>"; };
+		E1071F812BA68305004CFCAB /* ContaRepository+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContaRepository+Injection.swift"; sourceTree = "<group>"; };
+		E1071F872BA68937004CFCAB /* Firebase+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Firebase+Injection.swift"; sourceTree = "<group>"; };
 		E132FC372B97FE6000183725 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		E132FC3A2B98001D00183725 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		E132FC3C2B9800FE00183725 /* TabBarItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemView.swift; sourceTree = "<group>"; };
 		E16FC5022B91563700929946 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		E16FC5052B915AC100929946 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
-		E16FC50E2B92298200929946 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
-		E16FC5172B922A1300929946 /* HomeRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRoute.swift; sourceTree = "<group>"; };
-		E16FC5192B922A1D00929946 /* HomeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAction.swift; sourceTree = "<group>"; };
-		E16FC51B2B922A2800929946 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		E16FC51E2B94D06800929946 /* CalendarExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarExtension.swift; sourceTree = "<group>"; };
 		E16FC5202B94D08600929946 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		E16FC5222B94D0CC00929946 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
-		E16FC5252B96862900929946 /* CoordinatorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorFactory.swift; sourceTree = "<group>"; };
-		E16FC5272B96864A00929946 /* DeepLinkHander.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkHander.swift; sourceTree = "<group>"; };
-		E16FC5292B96869C00929946 /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
-		E16FC52C2B96872600929946 /* FadeTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
-		E16FC52E2B96874D00929946 /* SlideTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideTransitions.swift; sourceTree = "<group>"; };
 		E16FC5302B968A7000929946 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		E17678842B8EA44D00913490 /* Geld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E17678872B8EA44D00913490 /* GeldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeldApp.swift; sourceTree = "<group>"; };
@@ -117,9 +117,9 @@
 				E17678C32B8EAAD800913490 /* FirebasePerformance in Frameworks */,
 				E17678BB2B8EAAD800913490 /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
 				E17678C92B8EAAD800913490 /* FirebaseStorage in Frameworks */,
+				E1071F852BA685FC004CFCAB /* Factory in Frameworks */,
 				E17678AD2B8EAAD800913490 /* FirebaseDynamicLinks in Frameworks */,
 				E17678B12B8EAAD800913490 /* FirebaseFirestoreCombine-Community in Frameworks */,
-				E16FC5092B915DF500929946 /* SwiftUICoordinator in Frameworks */,
 				E17678C12B8EAAD800913490 /* FirebaseMessaging in Frameworks */,
 				E17678BD2B8EAAD800913490 /* FirebaseInstallations in Frameworks */,
 			);
@@ -128,6 +128,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E1071F6F2B9E8AB2004CFCAB /* Conta */ = {
+			isa = PBXGroup;
+			children = (
+				E1071F732B9E8B74004CFCAB /* Model */,
+				E1071F702B9E8ABB004CFCAB /* Repositories */,
+				E1071F7A2B9FBD11004CFCAB /* Screen */,
+				E1071F792B9FBD09004CFCAB /* View */,
+				E1071F762B9E9921004CFCAB /* ViewModel */,
+			);
+			path = Conta;
+			sourceTree = "<group>";
+		};
+		E1071F702B9E8ABB004CFCAB /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				E1071F712B9E8B0F004CFCAB /* ContaRepository.swift */,
+				E1071F812BA68305004CFCAB /* ContaRepository+Injection.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		E1071F732B9E8B74004CFCAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1071F742B9E8B83004CFCAB /* ContaModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1071F762B9E9921004CFCAB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E1071F772B9E9939004CFCAB /* ContaViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E1071F792B9FBD09004CFCAB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1071F7D2B9FC791004CFCAB /* ContaDetalheView.swift */,
+				E1071F7F2BA67C7D004CFCAB /* ContaAddEditView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1071F7A2B9FBD11004CFCAB /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				E1071F7B2B9FC3C7004CFCAB /* ContaListaScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		E1071F862BA68923004CFCAB /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				E1071F872BA68937004CFCAB /* Firebase+Injection.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
 		E132FC362B97FE4400183725 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,7 +228,6 @@
 		E16FC4F52B9153C200929946 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				E16FC5162B922A0300929946 /* Coordinator */,
 				E16FC4F92B91544D00929946 /* Action */,
 				E16FC4FA2B91545600929946 /* Models */,
 				E16FC4FB2B91545E00929946 /* Screens */,
@@ -238,7 +299,7 @@
 		E16FC4FF2B91551A00929946 /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				E16FC50A2B92293200929946 /* Coordinator */,
+				E1071F862BA68923004CFCAB /* Firebase */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -266,26 +327,6 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		E16FC50A2B92293200929946 /* Coordinator */ = {
-			isa = PBXGroup;
-			children = (
-				E16FC50E2B92298200929946 /* AppCoordinator.swift */,
-				E16FC5242B96861200929946 /* Dependencies */,
-				E16FC52B2B96870700929946 /* Transitions */,
-			);
-			path = Coordinator;
-			sourceTree = "<group>";
-		};
-		E16FC5162B922A0300929946 /* Coordinator */ = {
-			isa = PBXGroup;
-			children = (
-				E16FC5192B922A1D00929946 /* HomeAction.swift */,
-				E16FC51B2B922A2800929946 /* HomeCoordinator.swift */,
-				E16FC5172B922A1300929946 /* HomeRoute.swift */,
-			);
-			path = Coordinator;
-			sourceTree = "<group>";
-		};
 		E16FC51D2B94D04D00929946 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -296,28 +337,10 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		E16FC5242B96861200929946 /* Dependencies */ = {
-			isa = PBXGroup;
-			children = (
-				E16FC5252B96862900929946 /* CoordinatorFactory.swift */,
-				E16FC5272B96864A00929946 /* DeepLinkHander.swift */,
-				E16FC5292B96869C00929946 /* DependencyContainer.swift */,
-			);
-			path = Dependencies;
-			sourceTree = "<group>";
-		};
-		E16FC52B2B96870700929946 /* Transitions */ = {
-			isa = PBXGroup;
-			children = (
-				E16FC52C2B96872600929946 /* FadeTransition.swift */,
-				E16FC52E2B96874D00929946 /* SlideTransitions.swift */,
-			);
-			path = Transitions;
-			sourceTree = "<group>";
-		};
 		E176787B2B8EA44D00913490 = {
 			isa = PBXGroup;
 			children = (
+				E1071F6D2B9E855D004CFCAB /* GoogleService-Info.plist */,
 				E17678CD2B8EAE3900913490 /* .swiftlint.yml */,
 				E17678862B8EA44D00913490 /* Geld */,
 				E17678852B8EA44D00913490 /* Products */,
@@ -383,6 +406,7 @@
 		E17678D42B8EBB2C00913490 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				E1071F6F2B9E8AB2004CFCAB /* Conta */,
 				E16FC4F82B91543E00929946 /* Common */,
 				E16FC4F52B9153C200929946 /* Home */,
 				E16FC4F42B9153B800929946 /* Login */,
@@ -436,7 +460,7 @@
 				E17678C62B8EAAD800913490 /* FirebaseRemoteConfigSwift */,
 				E17678C82B8EAAD800913490 /* FirebaseStorage */,
 				E17678CA2B8EAAD800913490 /* FirebaseStorageCombine-Community */,
-				E16FC5082B915DF500929946 /* SwiftUICoordinator */,
+				E1071F842BA685FC004CFCAB /* Factory */,
 			);
 			productName = Geld;
 			productReference = E17678842B8EA44D00913490 /* Geld.app */;
@@ -464,11 +488,12 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
 			mainGroup = E176787B2B8EA44D00913490;
 			packageReferences = (
 				E17678952B8EAAD700913490 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				E16FC5072B915DF500929946 /* XCRemoteSwiftPackageReference "SwiftUICoordinator" */,
+				E1071F832BA685FC004CFCAB /* XCRemoteSwiftPackageReference "Factory" */,
 			);
 			productRefGroup = E17678852B8EA44D00913490 /* Products */;
 			projectDirPath = "";
@@ -484,6 +509,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1071F6E2B9E855D004CFCAB /* GoogleService-Info.plist in Resources */,
 				E17678CE2B8EAE3900913490 /* .swiftlint.yml in Resources */,
 				E176788F2B8EA45600913490 /* Preview Assets.xcassets in Resources */,
 				E17678D22B8EB9B000913490 /* Localizable.xcstrings in Resources */,
@@ -520,24 +546,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E16FC52F2B96874D00929946 /* SlideTransitions.swift in Sources */,
-				E16FC52A2B96869C00929946 /* DependencyContainer.swift in Sources */,
-				E16FC52D2B96872600929946 /* FadeTransition.swift in Sources */,
 				E132FC382B97FE6000183725 /* TabBarController.swift in Sources */,
 				E16FC5062B915AC100929946 /* LoginViewModel.swift in Sources */,
-				E16FC5282B96864A00929946 /* DeepLinkHander.swift in Sources */,
 				E132FC3B2B98001D00183725 /* TabBarView.swift in Sources */,
+				E1071F822BA68305004CFCAB /* ContaRepository+Injection.swift in Sources */,
 				E16FC5212B94D08600929946 /* DateExtension.swift in Sources */,
-				E16FC51C2B922A2800929946 /* HomeCoordinator.swift in Sources */,
-				E16FC5262B96862900929946 /* CoordinatorFactory.swift in Sources */,
 				E16FC51F2B94D06800929946 /* CalendarExtension.swift in Sources */,
-				E16FC51A2B922A1D00929946 /* HomeAction.swift in Sources */,
+				E1071F7C2B9FC3C7004CFCAB /* ContaListaScreen.swift in Sources */,
 				E176788A2B8EA44D00913490 /* ContentView.swift in Sources */,
+				E1071F782B9E9939004CFCAB /* ContaViewModel.swift in Sources */,
+				E1071F802BA67C7D004CFCAB /* ContaAddEditView.swift in Sources */,
+				E1071F7E2B9FC791004CFCAB /* ContaDetalheView.swift in Sources */,
 				E132FC3D2B9800FE00183725 /* TabBarItemView.swift in Sources */,
-				E16FC5182B922A1300929946 /* HomeRoute.swift in Sources */,
+				E1071F752B9E8B83004CFCAB /* ContaModel.swift in Sources */,
 				E16FC5312B968A7000929946 /* HomeScreen.swift in Sources */,
-				E16FC5132B92298200929946 /* AppCoordinator.swift in Sources */,
 				E17678882B8EA44D00913490 /* GeldApp.swift in Sources */,
+				E1071F722B9E8B0F004CFCAB /* ContaRepository.swift in Sources */,
+				E1071F882BA68937004CFCAB /* Firebase+Injection.swift in Sources */,
 				E16FC5232B94D0CC00929946 /* StringExtension.swift in Sources */,
 				E16FC5032B91563700929946 /* LoginScreen.swift in Sources */,
 			);
@@ -751,12 +776,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E16FC5072B915DF500929946 /* XCRemoteSwiftPackageReference "SwiftUICoordinator" */ = {
+		E1071F832BA685FC004CFCAB /* XCRemoteSwiftPackageReference "Factory" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/erikdrobne/SwiftUICoordinator";
+			repositoryURL = "https://github.com/hmlongco/Factory";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 2.3.2;
+				minimumVersion = 2.3.1;
 			};
 		};
 		E17678952B8EAAD700913490 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
@@ -770,10 +795,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		E16FC5082B915DF500929946 /* SwiftUICoordinator */ = {
+		E1071F842BA685FC004CFCAB /* Factory */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E16FC5072B915DF500929946 /* XCRemoteSwiftPackageReference "SwiftUICoordinator" */;
-			productName = SwiftUICoordinator;
+			package = E1071F832BA685FC004CFCAB /* XCRemoteSwiftPackageReference "Factory" */;
+			productName = Factory;
 		};
 		E17678962B8EAAD800913490 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;

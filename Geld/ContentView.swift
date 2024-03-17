@@ -11,13 +11,6 @@ struct ContentView: View
 {
     var body: some View 
     {
-        VStack 
-        {
-            Image(systemName: "dollarsign.circle")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        HomeScreen()
     }
 }
