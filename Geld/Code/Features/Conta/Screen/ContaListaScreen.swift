@@ -11,7 +11,7 @@ struct ContaListaScreen: View
 {
     @StateObject private var viewModel = ContaViewModel()
     @State private var isAddDialogPresented = false
-    @State private var editableConta: ContaModel?
+    @State private var editableConta: Conta?
     
     private func presentAddView()
     {
@@ -20,6 +20,8 @@ struct ContaListaScreen: View
     
     var body: some View
     {
+        NavigationStack
+        {
         List($viewModel.contas) { $conta in
             ContaDetalheView(conta: $conta)
                 .swipeActions(edge: .trailing, allowsFullSwipe: true)
@@ -34,18 +36,14 @@ struct ContaListaScreen: View
                 editableConta = conta
             }
         }
+        .navigationTitle("Conta")
         .toolbar {
-            ToolbarItemGroup(placement: .bottomBar)
+            ToolbarItem(placement: .topBarTrailing)
             {
                 Button(action: presentAddView)
                 {
-                    HStack
-                    {
-                        Image(systemName: "plus.circle.fill")
-                        Text("Nova conta")
-                    }
+                    Image(systemName: "plus")
                 }
-                Spacer()
             }
         }
         .sheet(isPresented: $isAddDialogPresented)
@@ -59,6 +57,7 @@ struct ContaListaScreen: View
                 viewModel.update(conta)
             }
         }
-        .tint(.red)
+        .tint(.blue)
+    }
     }
 }

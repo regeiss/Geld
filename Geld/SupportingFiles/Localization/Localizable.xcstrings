@@ -1,10 +1,23 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "" : {
+
+    },
+    "%@" : {
+
+    },
     "Add" : {
 
     },
+    "Anual" : {
+
+    },
+    "Banco" : {
+
+    },
     "Bill Pay" : {
+      "extractionState" : "stale",
       "localizations" : {
         "pt-BR" : {
           "stringUnit" : {
@@ -14,13 +27,23 @@
         }
       }
     },
-    "Cancel" : {
+    "Cancelar" : {
+
+    },
+    "Categoria" : {
+
+    },
+    "Categorias" : {
+
+    },
+    "Conta" : {
 
     },
     "Contas" : {
 
     },
     "Deposit" : {
+      "extractionState" : "stale",
       "localizations" : {
         "pt-BR" : {
           "stringUnit" : {
@@ -30,13 +53,10 @@
         }
       }
     },
-    "Details" : {
+    "Detalhes" : {
 
     },
-    "Detalhe" : {
-
-    },
-    "Done" : {
+    "Diário" : {
 
     },
     "Email" : {
@@ -49,6 +69,9 @@
         }
       }
     },
+    "Feito" : {
+
+    },
     "Hello, world!" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -60,6 +83,12 @@
         }
       }
     },
+    "Home" : {
+
+    },
+    "KM/H" : {
+
+    },
     "Login" : {
       "localizations" : {
         "pt-BR" : {
@@ -69,6 +98,9 @@
           }
         }
       }
+    },
+    "Mensal" : {
+
     },
     "More" : {
       "extractionState" : "manual",
@@ -82,12 +114,29 @@
       }
     },
     "New Reminder" : {
-
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "New Reminder"
+          }
+        }
+      }
     },
     "Nome" : {
 
     },
     "Nova conta" : {
+
+    },
+    "Novo banco" : {
+
+    },
+    "Novo categoria" : {
+
+    },
+    "Orçamentos" : {
 
     },
     "Password" : {
@@ -99,6 +148,12 @@
           }
         }
       }
+    },
+    "Semanal" : {
+
+    },
+    "Transações" : {
+
     },
     "Transfer" : {
       "localizations" : {

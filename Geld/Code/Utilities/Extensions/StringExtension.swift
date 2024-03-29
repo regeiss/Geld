@@ -34,19 +34,19 @@ extension String
         return ""
     }
     
-    func toQuilometrosFormat() -> String
-    {
-        if let int32Value = Int32(self)
-        {
-            let numberFormatter = NumberFormatter()
-            numberFormatter.locale = Locale(identifier: "pt_BR")
-            numberFormatter.numberStyle = NumberFormatter.Style.decimal
-            numberFormatter.currencyGroupingSeparator = "."
-            numberFormatter.groupingSize = 3
-            return numberFormatter.string(from: NSNumber(value: int32Value)) ?? ""
-        }
-        return ""
-    }
+//    func toQuilometrosFormat() -> String
+//    {
+//        if let int32Value = Int32(self)
+//        {
+//            let numberFormatter = NumberFormatter()
+//            numberFormatter.locale = Locale(identifier: "pt_BR")
+//            numberFormatter.numberStyle = NumberFormatter.Style.decimal
+//            numberFormatter.currencyGroupingSeparator = "."
+//            numberFormatter.groupingSize = 3
+//            return numberFormatter.string(from: NSNumber(value: int32Value)) ?? ""
+//        }
+//        return ""
+//    }
     
     func toShortDateFormat() -> String?
     {

@@ -17,15 +17,36 @@
 		E1071F822BA68305004CFCAB /* ContaRepository+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071F812BA68305004CFCAB /* ContaRepository+Injection.swift */; };
 		E1071F852BA685FC004CFCAB /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = E1071F842BA685FC004CFCAB /* Factory */; };
 		E1071F882BA68937004CFCAB /* Firebase+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071F872BA68937004CFCAB /* Firebase+Injection.swift */; };
+		E1071F902BA89C9F004CFCAB /* BancoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071F8F2BA89C9F004CFCAB /* BancoModel.swift */; };
+		E1071F922BA89E88004CFCAB /* BancoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071F912BA89E88004CFCAB /* BancoRepository.swift */; };
+		E1071F952BA8B20D004CFCAB /* BancoRepository+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071F942BA8B20D004CFCAB /* BancoRepository+Injection.swift */; };
+		E1071F972BA8B33E004CFCAB /* BancoListaScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071F962BA8B33E004CFCAB /* BancoListaScreen.swift */; };
+		E1071F992BA8B42C004CFCAB /* BancoDetalheView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071F982BA8B42C004CFCAB /* BancoDetalheView.swift */; };
+		E1071F9B2BA8B491004CFCAB /* BancoAddEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071F9A2BA8B491004CFCAB /* BancoAddEditView.swift */; };
+		E1071F9D2BA8B6D4004CFCAB /* BancoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071F9C2BA8B6D4004CFCAB /* BancoViewModel.swift */; };
+		E1071FA02BAA5D1E004CFCAB /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071F9F2BAA5D1E004CFCAB /* AppTheme.swift */; };
+		E1071FA32BAA5EC4004CFCAB /* AppCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071FA22BAA5EC4004CFCAB /* AppCheck.swift */; };
+		E1071FA82BAA61C1004CFCAB /* OrcamentoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071FA72BAA61C1004CFCAB /* OrcamentoScreen.swift */; };
+		E1071FAC2BAB0D1C004CFCAB /* GaugeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071FAB2BAB0D1C004CFCAB /* GaugeStyle.swift */; };
 		E132FC382B97FE6000183725 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E132FC372B97FE6000183725 /* TabBarController.swift */; };
 		E132FC3B2B98001D00183725 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E132FC3A2B98001D00183725 /* TabBarView.swift */; };
 		E132FC3D2B9800FE00183725 /* TabBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E132FC3C2B9800FE00183725 /* TabBarItemView.swift */; };
+		E1541B512BB3155600AB4184 /* CategoriaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1541B502BB3155600AB4184 /* CategoriaModel.swift */; };
+		E1541B532BB3171A00AB4184 /* CategoriaRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1541B522BB3171A00AB4184 /* CategoriaRepository.swift */; };
+		E1541B552BB31B6300AB4184 /* Repository+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1541B542BB31B6300AB4184 /* Repository+Injection.swift */; };
+		E1541B572BB4655900AB4184 /* CategoriaListaScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1541B562BB4655900AB4184 /* CategoriaListaScreen.swift */; };
+		E1541B592BB466CE00AB4184 /* CategoriaDetalheView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1541B582BB466CE00AB4184 /* CategoriaDetalheView.swift */; };
+		E1541B5B2BB466E600AB4184 /* CategoriaAddEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1541B5A2BB466E600AB4184 /* CategoriaAddEditView.swift */; };
+		E1541B5D2BB4670000AB4184 /* CategoriaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1541B5C2BB4670000AB4184 /* CategoriaViewModel.swift */; };
+		E1541B622BB64F7900AB4184 /* TransacaoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1541B612BB64F7900AB4184 /* TransacaoRepository.swift */; };
+		E1541B642BB64FA200AB4184 /* TransacaoRepository+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1541B632BB64FA200AB4184 /* TransacaoRepository+Injection.swift */; };
+		E1541B662BB651AA00AB4184 /* TransacaoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1541B652BB651AA00AB4184 /* TransacaoViewModel.swift */; };
 		E16FC5032B91563700929946 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5022B91563700929946 /* LoginScreen.swift */; };
 		E16FC5062B915AC100929946 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5052B915AC100929946 /* LoginViewModel.swift */; };
 		E16FC51F2B94D06800929946 /* CalendarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC51E2B94D06800929946 /* CalendarExtension.swift */; };
 		E16FC5212B94D08600929946 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5202B94D08600929946 /* DateExtension.swift */; };
 		E16FC5232B94D0CC00929946 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5222B94D0CC00929946 /* StringExtension.swift */; };
-		E16FC5312B968A7000929946 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5302B968A7000929946 /* HomeScreen.swift */; };
+		E16FC5312B968A7000929946 /* HomeTabsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5302B968A7000929946 /* HomeTabsScreen.swift */; };
 		E17678882B8EA44D00913490 /* GeldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17678872B8EA44D00913490 /* GeldApp.swift */; };
 		E176788A2B8EA44D00913490 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17678892B8EA44D00913490 /* ContentView.swift */; };
 		E176788C2B8EA45600913490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E176788B2B8EA45600913490 /* Assets.xcassets */; };
@@ -59,6 +80,11 @@
 		E17678CB2B8EAAD800913490 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = E17678CA2B8EAAD800913490 /* FirebaseStorageCombine-Community */; };
 		E17678CE2B8EAE3900913490 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = E17678CD2B8EAE3900913490 /* .swiftlint.yml */; };
 		E17678D22B8EB9B000913490 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = E17678D12B8EB9B000913490 /* Localizable.xcstrings */; };
+		E1BF0ABA2BB100A80084D28F /* TransacaoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF0AB92BB100A80084D28F /* TransacaoModel.swift */; };
+		E1BF0ABD2BB1069B0084D28F /* TransacaoDetalheView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF0ABC2BB1069B0084D28F /* TransacaoDetalheView.swift */; };
+		E1BF0ABF2BB1DE7A0084D28F /* TransacaoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF0ABE2BB1DE7A0084D28F /* TransacaoView.swift */; };
+		E1BF0AC12BB1F2200084D28F /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF0AC02BB1F2200084D28F /* HomeScreen.swift */; };
+		E1BF0AC32BB1FB770084D28F /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF0AC22BB1FB770084D28F /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,15 +97,36 @@
 		E1071F7F2BA67C7D004CFCAB /* ContaAddEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContaAddEditView.swift; sourceTree = "<group>"; };
 		E1071F812BA68305004CFCAB /* ContaRepository+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContaRepository+Injection.swift"; sourceTree = "<group>"; };
 		E1071F872BA68937004CFCAB /* Firebase+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Firebase+Injection.swift"; sourceTree = "<group>"; };
+		E1071F8F2BA89C9F004CFCAB /* BancoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BancoModel.swift; sourceTree = "<group>"; };
+		E1071F912BA89E88004CFCAB /* BancoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BancoRepository.swift; sourceTree = "<group>"; };
+		E1071F942BA8B20D004CFCAB /* BancoRepository+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BancoRepository+Injection.swift"; sourceTree = "<group>"; };
+		E1071F962BA8B33E004CFCAB /* BancoListaScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BancoListaScreen.swift; sourceTree = "<group>"; };
+		E1071F982BA8B42C004CFCAB /* BancoDetalheView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BancoDetalheView.swift; sourceTree = "<group>"; };
+		E1071F9A2BA8B491004CFCAB /* BancoAddEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BancoAddEditView.swift; sourceTree = "<group>"; };
+		E1071F9C2BA8B6D4004CFCAB /* BancoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BancoViewModel.swift; sourceTree = "<group>"; };
+		E1071F9F2BAA5D1E004CFCAB /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		E1071FA22BAA5EC4004CFCAB /* AppCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCheck.swift; sourceTree = "<group>"; };
+		E1071FA72BAA61C1004CFCAB /* OrcamentoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrcamentoScreen.swift; sourceTree = "<group>"; };
+		E1071FAB2BAB0D1C004CFCAB /* GaugeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeStyle.swift; sourceTree = "<group>"; };
 		E132FC372B97FE6000183725 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		E132FC3A2B98001D00183725 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		E132FC3C2B9800FE00183725 /* TabBarItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemView.swift; sourceTree = "<group>"; };
+		E1541B502BB3155600AB4184 /* CategoriaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriaModel.swift; sourceTree = "<group>"; };
+		E1541B522BB3171A00AB4184 /* CategoriaRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriaRepository.swift; sourceTree = "<group>"; };
+		E1541B542BB31B6300AB4184 /* Repository+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Repository+Injection.swift"; sourceTree = "<group>"; };
+		E1541B562BB4655900AB4184 /* CategoriaListaScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriaListaScreen.swift; sourceTree = "<group>"; };
+		E1541B582BB466CE00AB4184 /* CategoriaDetalheView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriaDetalheView.swift; sourceTree = "<group>"; };
+		E1541B5A2BB466E600AB4184 /* CategoriaAddEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriaAddEditView.swift; sourceTree = "<group>"; };
+		E1541B5C2BB4670000AB4184 /* CategoriaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriaViewModel.swift; sourceTree = "<group>"; };
+		E1541B612BB64F7900AB4184 /* TransacaoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransacaoRepository.swift; sourceTree = "<group>"; };
+		E1541B632BB64FA200AB4184 /* TransacaoRepository+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TransacaoRepository+Injection.swift"; sourceTree = "<group>"; };
+		E1541B652BB651AA00AB4184 /* TransacaoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransacaoViewModel.swift; sourceTree = "<group>"; };
 		E16FC5022B91563700929946 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		E16FC5052B915AC100929946 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		E16FC51E2B94D06800929946 /* CalendarExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarExtension.swift; sourceTree = "<group>"; };
 		E16FC5202B94D08600929946 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		E16FC5222B94D0CC00929946 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
-		E16FC5302B968A7000929946 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		E16FC5302B968A7000929946 /* HomeTabsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabsScreen.swift; sourceTree = "<group>"; };
 		E17678842B8EA44D00913490 /* Geld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E17678872B8EA44D00913490 /* GeldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeldApp.swift; sourceTree = "<group>"; };
 		E17678892B8EA44D00913490 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,6 +134,11 @@
 		E176788E2B8EA45600913490 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E17678CD2B8EAE3900913490 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		E17678D12B8EB9B000913490 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		E1BF0AB92BB100A80084D28F /* TransacaoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransacaoModel.swift; sourceTree = "<group>"; };
+		E1BF0ABC2BB1069B0084D28F /* TransacaoDetalheView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransacaoDetalheView.swift; sourceTree = "<group>"; };
+		E1BF0ABE2BB1DE7A0084D28F /* TransacaoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransacaoView.swift; sourceTree = "<group>"; };
+		E1BF0AC02BB1F2200084D28F /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		E1BF0AC22BB1FB770084D28F /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +242,116 @@
 			path = Firebase;
 			sourceTree = "<group>";
 		};
+		E1071F892BA898EE004CFCAB /* Banco */ = {
+			isa = PBXGroup;
+			children = (
+				E1071F8A2BA899B9004CFCAB /* Model */,
+				E1071F8B2BA899C3004CFCAB /* Repository */,
+				E1071F8E2BA899E5004CFCAB /* Screen */,
+				E1071F8C2BA899D2004CFCAB /* View */,
+				E1071F8D2BA899D9004CFCAB /* ViewModel */,
+			);
+			path = Banco;
+			sourceTree = "<group>";
+		};
+		E1071F8A2BA899B9004CFCAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1071F8F2BA89C9F004CFCAB /* BancoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1071F8B2BA899C3004CFCAB /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				E1071F912BA89E88004CFCAB /* BancoRepository.swift */,
+				E1071F942BA8B20D004CFCAB /* BancoRepository+Injection.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		E1071F8C2BA899D2004CFCAB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1071F982BA8B42C004CFCAB /* BancoDetalheView.swift */,
+				E1071F9A2BA8B491004CFCAB /* BancoAddEditView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1071F8D2BA899D9004CFCAB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E1071F9C2BA8B6D4004CFCAB /* BancoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E1071F8E2BA899E5004CFCAB /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				E1071F962BA8B33E004CFCAB /* BancoListaScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		E1071F9E2BAA5D0F004CFCAB /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				E1071F9F2BAA5D1E004CFCAB /* AppTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		E1071FA12BAA5EB6004CFCAB /* AppCheck */ = {
+			isa = PBXGroup;
+			children = (
+				E1071FA22BAA5EC4004CFCAB /* AppCheck.swift */,
+			);
+			path = AppCheck;
+			sourceTree = "<group>";
+		};
+		E1071FA42BAA603C004CFCAB /* Orcamento */ = {
+			isa = PBXGroup;
+			children = (
+				E1071FA62BAA6051004CFCAB /* View */,
+				E1071FA52BAA604A004CFCAB /* Screen */,
+			);
+			path = Orcamento;
+			sourceTree = "<group>";
+		};
+		E1071FA52BAA604A004CFCAB /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				E1071FA72BAA61C1004CFCAB /* OrcamentoScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		E1071FA62BAA6051004CFCAB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1071FA92BAB0CEF004CFCAB /* Gauge */ = {
+			isa = PBXGroup;
+			children = (
+				E1071FAA2BAB0CF8004CFCAB /* View */,
+			);
+			path = Gauge;
+			sourceTree = "<group>";
+		};
+		E1071FAA2BAB0CF8004CFCAB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1071FAB2BAB0D1C004CFCAB /* GaugeStyle.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E132FC362B97FE4400183725 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -216,6 +378,84 @@
 			path = Action;
 			sourceTree = "<group>";
 		};
+		E1541B4A2BB3143400AB4184 /* Categoria */ = {
+			isa = PBXGroup;
+			children = (
+				E1541B4B2BB3144E00AB4184 /* Model */,
+				E1541B4D2BB3146000AB4184 /* Repository */,
+				E1541B4F2BB3153900AB4184 /* Screen */,
+				E1541B4C2BB3145700AB4184 /* View */,
+				E1541B4E2BB3146C00AB4184 /* ViewModel */,
+			);
+			path = Categoria;
+			sourceTree = "<group>";
+		};
+		E1541B4B2BB3144E00AB4184 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1541B502BB3155600AB4184 /* CategoriaModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1541B4C2BB3145700AB4184 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1541B582BB466CE00AB4184 /* CategoriaDetalheView.swift */,
+				E1541B5A2BB466E600AB4184 /* CategoriaAddEditView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1541B4D2BB3146000AB4184 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				E1541B522BB3171A00AB4184 /* CategoriaRepository.swift */,
+				E1541B542BB31B6300AB4184 /* Repository+Injection.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		E1541B4E2BB3146C00AB4184 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E1541B5C2BB4670000AB4184 /* CategoriaViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E1541B4F2BB3153900AB4184 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				E1541B562BB4655900AB4184 /* CategoriaListaScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		E1541B5E2BB6470100AB4184 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E1541B652BB651AA00AB4184 /* TransacaoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E1541B5F2BB6471100AB4184 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		E1541B602BB64EF200AB4184 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				E1541B612BB64F7900AB4184 /* TransacaoRepository.swift */,
+				E1541B632BB64FA200AB4184 /* TransacaoRepository+Injection.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
 		E16FC4F42B9153B800929946 /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,10 +469,10 @@
 			isa = PBXGroup;
 			children = (
 				E16FC4F92B91544D00929946 /* Action */,
-				E16FC4FA2B91545600929946 /* Models */,
-				E16FC4FB2B91545E00929946 /* Screens */,
-				E16FC4FD2B91547600929946 /* ViewModels */,
-				E16FC4FC2B91546C00929946 /* Views */,
+				E16FC4FA2B91545600929946 /* Model */,
+				E16FC4FB2B91545E00929946 /* Screen */,
+				E16FC4FD2B91547600929946 /* ViewModel */,
+				E16FC4FC2B91546C00929946 /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -255,6 +495,7 @@
 		E16FC4F82B91543E00929946 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				E1071FA92BAB0CEF004CFCAB /* Gauge */,
 				E132FC362B97FE4400183725 /* TabBar */,
 			);
 			path = Common;
@@ -267,38 +508,41 @@
 			path = Action;
 			sourceTree = "<group>";
 		};
-		E16FC4FA2B91545600929946 /* Models */ = {
+		E16FC4FA2B91545600929946 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Models;
+			path = Model;
 			sourceTree = "<group>";
 		};
-		E16FC4FB2B91545E00929946 /* Screens */ = {
+		E16FC4FB2B91545E00929946 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
-				E16FC5302B968A7000929946 /* HomeScreen.swift */,
+				E16FC5302B968A7000929946 /* HomeTabsScreen.swift */,
+				E1BF0AC02BB1F2200084D28F /* HomeScreen.swift */,
 			);
-			path = Screens;
+			path = Screen;
 			sourceTree = "<group>";
 		};
-		E16FC4FC2B91546C00929946 /* Views */ = {
+		E16FC4FC2B91546C00929946 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Views;
+			path = View;
 			sourceTree = "<group>";
 		};
-		E16FC4FD2B91547600929946 /* ViewModels */ = {
+		E16FC4FD2B91547600929946 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = ViewModels;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		E16FC4FF2B91551A00929946 /* Config */ = {
 			isa = PBXGroup;
 			children = (
+				E1071FA12BAA5EB6004CFCAB /* AppCheck */,
+				E1071F9E2BAA5D0F004CFCAB /* Theme */,
 				E1071F862BA68923004CFCAB /* Firebase */,
 			);
 			path = Config;
@@ -307,6 +551,7 @@
 		E16FC5002B91552400929946 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E176788B2B8EA45600913490 /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -333,6 +578,7 @@
 				E16FC51E2B94D06800929946 /* CalendarExtension.swift */,
 				E16FC5202B94D08600929946 /* DateExtension.swift */,
 				E16FC5222B94D0CC00929946 /* StringExtension.swift */,
+				E1BF0AC22BB1FB770084D28F /* ColorExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -362,7 +608,6 @@
 				E17678CF2B8EB96800913490 /* SupportingFiles */,
 				E17678872B8EA44D00913490 /* GeldApp.swift */,
 				E17678892B8EA44D00913490 /* ContentView.swift */,
-				E176788B2B8EA45600913490 /* Assets.xcassets */,
 				E176788D2B8EA45600913490 /* Preview Content */,
 			);
 			path = Geld;
@@ -406,13 +651,46 @@
 		E17678D42B8EBB2C00913490 /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				E1071F6F2B9E8AB2004CFCAB /* Conta */,
+				E1071F892BA898EE004CFCAB /* Banco */,
+				E1541B4A2BB3143400AB4184 /* Categoria */,
 				E16FC4F82B91543E00929946 /* Common */,
+				E1071F6F2B9E8AB2004CFCAB /* Conta */,
 				E16FC4F52B9153C200929946 /* Home */,
 				E16FC4F42B9153B800929946 /* Login */,
+				E1071FA42BAA603C004CFCAB /* Orcamento */,
 				E16FC4F62B9153CB00929946 /* Settings */,
+				E1BF0AB72BAF2E140084D28F /* Transacoes */,
 			);
 			path = Features;
+			sourceTree = "<group>";
+		};
+		E1BF0AB72BAF2E140084D28F /* Transacoes */ = {
+			isa = PBXGroup;
+			children = (
+				E1BF0AB82BB0FFEB0084D28F /* Model */,
+				E1541B602BB64EF200AB4184 /* Repository */,
+				E1541B5F2BB6471100AB4184 /* Screen */,
+				E1BF0ABB2BB106100084D28F /* View */,
+				E1541B5E2BB6470100AB4184 /* ViewModel */,
+			);
+			path = Transacoes;
+			sourceTree = "<group>";
+		};
+		E1BF0AB82BB0FFEB0084D28F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1BF0AB92BB100A80084D28F /* TransacaoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1BF0ABB2BB106100084D28F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1BF0ABC2BB1069B0084D28F /* TransacaoDetalheView.swift */,
+				E1BF0ABE2BB1DE7A0084D28F /* TransacaoView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -549,22 +827,48 @@
 				E132FC382B97FE6000183725 /* TabBarController.swift in Sources */,
 				E16FC5062B915AC100929946 /* LoginViewModel.swift in Sources */,
 				E132FC3B2B98001D00183725 /* TabBarView.swift in Sources */,
+				E1541B622BB64F7900AB4184 /* TransacaoRepository.swift in Sources */,
+				E1541B642BB64FA200AB4184 /* TransacaoRepository+Injection.swift in Sources */,
+				E1BF0ABD2BB1069B0084D28F /* TransacaoDetalheView.swift in Sources */,
+				E1541B5B2BB466E600AB4184 /* CategoriaAddEditView.swift in Sources */,
+				E1071F972BA8B33E004CFCAB /* BancoListaScreen.swift in Sources */,
 				E1071F822BA68305004CFCAB /* ContaRepository+Injection.swift in Sources */,
 				E16FC5212B94D08600929946 /* DateExtension.swift in Sources */,
+				E1071F992BA8B42C004CFCAB /* BancoDetalheView.swift in Sources */,
+				E1541B662BB651AA00AB4184 /* TransacaoViewModel.swift in Sources */,
 				E16FC51F2B94D06800929946 /* CalendarExtension.swift in Sources */,
 				E1071F7C2B9FC3C7004CFCAB /* ContaListaScreen.swift in Sources */,
 				E176788A2B8EA44D00913490 /* ContentView.swift in Sources */,
+				E1071F9D2BA8B6D4004CFCAB /* BancoViewModel.swift in Sources */,
+				E1541B532BB3171A00AB4184 /* CategoriaRepository.swift in Sources */,
+				E1BF0AC12BB1F2200084D28F /* HomeScreen.swift in Sources */,
 				E1071F782B9E9939004CFCAB /* ContaViewModel.swift in Sources */,
+				E1071FA02BAA5D1E004CFCAB /* AppTheme.swift in Sources */,
 				E1071F802BA67C7D004CFCAB /* ContaAddEditView.swift in Sources */,
+				E1541B5D2BB4670000AB4184 /* CategoriaViewModel.swift in Sources */,
 				E1071F7E2B9FC791004CFCAB /* ContaDetalheView.swift in Sources */,
 				E132FC3D2B9800FE00183725 /* TabBarItemView.swift in Sources */,
+				E1071FA32BAA5EC4004CFCAB /* AppCheck.swift in Sources */,
+				E1BF0AC32BB1FB770084D28F /* ColorExtension.swift in Sources */,
+				E1071FAC2BAB0D1C004CFCAB /* GaugeStyle.swift in Sources */,
+				E1541B592BB466CE00AB4184 /* CategoriaDetalheView.swift in Sources */,
 				E1071F752B9E8B83004CFCAB /* ContaModel.swift in Sources */,
-				E16FC5312B968A7000929946 /* HomeScreen.swift in Sources */,
+				E16FC5312B968A7000929946 /* HomeTabsScreen.swift in Sources */,
+				E1541B512BB3155600AB4184 /* CategoriaModel.swift in Sources */,
+				E1071FA82BAA61C1004CFCAB /* OrcamentoScreen.swift in Sources */,
 				E17678882B8EA44D00913490 /* GeldApp.swift in Sources */,
+				E1541B572BB4655900AB4184 /* CategoriaListaScreen.swift in Sources */,
 				E1071F722B9E8B0F004CFCAB /* ContaRepository.swift in Sources */,
 				E1071F882BA68937004CFCAB /* Firebase+Injection.swift in Sources */,
+				E1BF0ABF2BB1DE7A0084D28F /* TransacaoView.swift in Sources */,
+				E1071F952BA8B20D004CFCAB /* BancoRepository+Injection.swift in Sources */,
 				E16FC5232B94D0CC00929946 /* StringExtension.swift in Sources */,
 				E16FC5032B91563700929946 /* LoginScreen.swift in Sources */,
+				E1071F9B2BA8B491004CFCAB /* BancoAddEditView.swift in Sources */,
+				E1071F922BA89E88004CFCAB /* BancoRepository.swift in Sources */,
+				E1541B552BB31B6300AB4184 /* Repository+Injection.swift in Sources */,
+				E1071F902BA89C9F004CFCAB /* BancoModel.swift in Sources */,
+				E1BF0ABA2BB100A80084D28F /* TransacaoModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

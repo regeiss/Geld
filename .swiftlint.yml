@@ -7,3 +7,4 @@ disabled_rules:
 - statement_position
 - force_cast
 - force_try
+- multiple_closures_with_trailing_closure

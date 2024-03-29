@@ -13,7 +13,7 @@ import FirebaseFirestoreSwift
 public class ContaRepository: ObservableObject
 {
     @Injected(\.firestore) var firestore
-    @Published var contas = [ContaModel]()
+    @Published var contas = [Conta]()
     private var listenerRegistration: ListenerRegistration?
     
     init()
@@ -26,6 +26,7 @@ public class ContaRepository: ObservableObject
         unsubscribe()
     }
     
+    // MARK: - Funcs
     func subscribe()
     {
         if listenerRegistration == nil
@@ -42,7 +43,7 @@ public class ContaRepository: ObservableObject
                 print("Mapping \(documents.count) documents")
                 self?.contas = documents.compactMap { queryDocumentSnapshot in
                     do {
-                        return try queryDocumentSnapshot.data(as: ContaModel.self)
+                        return try queryDocumentSnapshot.data(as: Conta.self)
                     }
                     catch {
                         print("Error while trying to map document \(queryDocumentSnapshot.documentID): \(error.localizedDescription)")
@@ -62,14 +63,14 @@ public class ContaRepository: ObservableObject
         }
     }
     
-    func addConta(_ conta: ContaModel) throws
+    func addConta(_ conta: Conta) throws
     {
         try firestore
-            .collection(ContaModel.collectionName)
+            .collection(Conta.collectionName)
             .addDocument(from: conta)
     }
     
-    func update(_ conta: ContaModel) throws
+    func update(_ conta: Conta) throws
     {
         guard let documentId = conta.id
         else
@@ -78,21 +79,21 @@ public class ContaRepository: ObservableObject
         }
         
         try firestore
-            .collection(ContaModel.collectionName)
+            .collection(Conta.collectionName)
             .document(documentId)
             .setData(from: conta, merge: true)
     }
     
-    func delete(_ conta: ContaModel)
+    func delete(_ conta: Conta)
     {
         guard let documentId = conta.id
         else
         {
-            fatalError("Reminder \(conta.nome) has no document ID.")
+            fatalError("Conta \(conta.nome) has no document ID.")
         }
         
         firestore
-            .collection(ContaModel.collectionName)
+            .collection(Conta.collectionName)
             .document(documentId)
             .delete()
     }

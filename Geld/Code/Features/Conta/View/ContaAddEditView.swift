@@ -9,9 +9,10 @@ import SwiftUI
 
 struct ContaAddEditView: View
 {
+    // MARK: - Vars
     @Environment(\.dismiss) private var dismiss
     @FocusState private var focusedField: FocusableField?
-    @State var conta = ContaModel(nome: "")
+    @State var conta = Conta(nome: "")
     
     enum FocusableField: Hashable
     {
@@ -25,44 +26,44 @@ struct ContaAddEditView: View
     }
     
     var mode: Mode = .add
-    let onCommit: (_ conta: ContaModel) -> Void
+    let onCommit: (_ conta: Conta) -> Void
     
     // MARK: - Body
     var body: some View
     {
         NavigationStack
-          {
-              Form
-              {
-                  TextField("Nome", text: $conta.nome)
-                      .focused($focusedField, equals: .nome)
-                      .onSubmit {
-                          commit()
-                      }
-              }
-              .navigationTitle(mode == .add ? "New Reminder" : "Details")
-              .navigationBarTitleDisplayMode(.inline)
-              .toolbar {
+        {
+            Form
+            {
+                TextField("Nome", text: $conta.nome)
+                    .focused($focusedField, equals: .nome)
+                    .onSubmit {
+                        commit()
+                    }
+            }
+            .navigationTitle(mode == .add ? "Nova conta" : "Detalhes")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
-                  Button(action: cancel) {
-                    Text("Cancel")
-                  }
+                    Button(action: cancel) {
+                        Text("Cancelar")
+                    }
                 }
                 ToolbarItem(placement: .confirmationAction) {
-                  Button(action: commit) {
-                    Text(mode == .add ? "Add" : "Done")
-                  }
-                  .disabled(conta.nome.isEmpty)
+                    Button(action: commit) {
+                        Text(mode == .add ? "Add" : "Feito")
+                    }
+                    .disabled(conta.nome.isEmpty)
                 }
-              }
-              .onAppear
-              {
-                  focusedField = .nome
-              }
-          }
-      }
+            }
+            .onAppear
+            {
+                focusedField = .nome
+            }
+        }
+    }
     
-    // MARK: - Functions
+    // MARK: - Funcs
     private func commit()
     {
         onCommit(conta)

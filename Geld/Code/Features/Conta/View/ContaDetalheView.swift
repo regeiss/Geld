@@ -9,16 +9,15 @@ import SwiftUI
 
 struct ContaDetalheView: View
 {
-    @Binding var conta: ContaModel
+    @Binding var conta: Conta
     
+    // MARK: - Body
     var body: some View
     {
         HStack
         {
-            Text("Detalhe")
             TextField(conta.nome, text: $conta.nome)
             Spacer()
         }.contentShape(Rectangle())
     }
 }
-

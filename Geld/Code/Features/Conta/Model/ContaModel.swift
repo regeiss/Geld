@@ -8,23 +8,13 @@
 import Foundation
 import FirebaseFirestoreSwift
 
-struct ContaModel: Identifiable, Codable
+struct Conta: Identifiable, Codable
 {
     @DocumentID var id: String?
     var nome: String
 }
 
-extension ContaModel
-{
-    static let samples = [
-        ContaModel(nome: "CEF"),
-        ContaModel(nome: "Safra"),
-        ContaModel(nome: "Itau"),
-        ContaModel(nome: "BTG")
-    ]
-}
-
-extension ContaModel
+extension Conta
 {
     static let collectionName = "conta"
 }

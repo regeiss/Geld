@@ -47,4 +47,3 @@ extension Container
         }.singleton
     }
 }
-

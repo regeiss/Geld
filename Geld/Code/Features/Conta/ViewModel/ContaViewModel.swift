@@ -12,7 +12,7 @@ import Factory
 class ContaViewModel: ObservableObject
 {
     @Injected(\.contaRepository) private var contaRepository: ContaRepository
-    @Published var contas = [ContaModel]()
+    @Published var contas = [Conta]()
     @Published var errorMessage: String?
     
     init() 
@@ -22,7 +22,7 @@ class ContaViewModel: ObservableObject
           .assign(to: &$contas)
       }
     
-    func addConta(_ conta: ContaModel)
+    func addConta(_ conta: Conta)
     {
         do
         {
@@ -35,7 +35,7 @@ class ContaViewModel: ObservableObject
         }
     }
     
-    func update(_ conta: ContaModel)
+    func update(_ conta: Conta)
      {
          do
          {
@@ -48,7 +48,7 @@ class ContaViewModel: ObservableObject
          }
      }
      
-     func delete(_ conta: ContaModel)
+     func delete(_ conta: Conta)
      {
          contaRepository.delete(conta)
      }
