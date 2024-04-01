@@ -14,7 +14,7 @@ struct HomeScreen: View
         VStack
         {
             OrcamentoScreen()
-            TransacaoView()
+            TransacaoHomeListaView()
         }
     }
 }

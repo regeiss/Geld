@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-struct TransacaoView: View
+struct TransacaoHomeListaView: View
 {
-    @State var transacoes = Transacao.sampleData
+    @StateObject private var viewModel = TransacaoViewModel()
     @State var selectedCategory: String = "Diario"
     
     var body: some View
@@ -34,8 +34,8 @@ struct TransacaoView: View
 
         ScrollView
         {
-            ForEach(transacoes) { transacao in
-                TransacaoDetalheView(transacao: transacao)
+            ForEach($viewModel.transacoes) { $transacao in
+                TransacaoDetalheView(transacao: $transacao, isHome: true)
             }
         }
     }

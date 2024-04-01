@@ -7,6 +7,7 @@
 
 import Foundation
 import FirebaseFirestoreSwift
+import FirebaseCore
 
 struct Transacao: Identifiable, Codable
 {
@@ -29,3 +30,4 @@ extension Transacao
         Transacao(id: "5", icone: "car", iconeCor: 0x25d366, nome: "Teste6", data: Date(), valor: 4.44)
     ]
 }
+

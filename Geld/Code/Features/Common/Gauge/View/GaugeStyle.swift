@@ -17,23 +17,23 @@ struct GaugeStylePB: GaugeStyle
         {
             Circle()
                 .foregroundColor(Color(.systemGray6))
- 
+                .rotationEffect(.degrees(145))
             Circle()
                 .trim(from: 0, to: 0.55 * configuration.value)
                 .stroke(purpleGradient, lineWidth: 20)
                 .rotationEffect(.degrees(145))
 
-            Circle()
-                .trim(from: 0, to: 0.75)
-                .stroke(Color.black, style: StrokeStyle(lineWidth: 10, lineCap: .butt, lineJoin: .round, dash: [1, 34], dashPhase: 0.0))
-                .rotationEffect(.degrees(135))
- 
+//            Circle()
+//                .trim(from: 0, to: 0.75)
+//                .stroke(Color.black, style: StrokeStyle(lineWidth: 10, lineCap: .butt, lineJoin: .round, dash: [1, 34], dashPhase: 0.0))
+//                .rotationEffect(.degrees(145))
+
             VStack 
             {
                 configuration.currentValueLabel
                     .font(.system(size: 80, weight: .bold, design: .rounded))
                     .foregroundColor(.gray)
-                Text("KM/H")
+                Text("R$")
                     .font(.system(.body, design: .rounded))
                     .bold()
                     .foregroundColor(.gray)

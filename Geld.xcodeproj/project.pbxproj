@@ -41,6 +41,15 @@
 		E1541B622BB64F7900AB4184 /* TransacaoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1541B612BB64F7900AB4184 /* TransacaoRepository.swift */; };
 		E1541B642BB64FA200AB4184 /* TransacaoRepository+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1541B632BB64FA200AB4184 /* TransacaoRepository+Injection.swift */; };
 		E1541B662BB651AA00AB4184 /* TransacaoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1541B652BB651AA00AB4184 /* TransacaoViewModel.swift */; };
+		E1541B6E2BB7911000AB4184 /* PerfilModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1541B6D2BB7911000AB4184 /* PerfilModel.swift */; };
+		E1541B702BB7936F00AB4184 /* PerfilRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1541B6F2BB7936F00AB4184 /* PerfilRepository.swift */; };
+		E1541B722BB7941400AB4184 /* PerfilRepository+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1541B712BB7941400AB4184 /* PerfilRepository+Injection.swift */; };
+		E1541B742BB7949C00AB4184 /* PerfilViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1541B732BB7949C00AB4184 /* PerfilViewModel.swift */; };
+		E1541B762BB79A5900AB4184 /* PerfilDetalheView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1541B752BB79A5900AB4184 /* PerfilDetalheView.swift */; };
+		E1541B782BB79A6C00AB4184 /* PerfilListaScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1541B772BB79A6C00AB4184 /* PerfilListaScreen.swift */; };
+		E1541B7A2BB85DDF00AB4184 /* PerfilAddEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1541B792BB85DDF00AB4184 /* PerfilAddEditView.swift */; };
+		E1541B7C2BB8639B00AB4184 /* TransacaoListaScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1541B7B2BB8639B00AB4184 /* TransacaoListaScreen.swift */; };
+		E1541B7E2BB8671900AB4184 /* TransacaoAddEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1541B7D2BB8671900AB4184 /* TransacaoAddEditView.swift */; };
 		E16FC5032B91563700929946 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5022B91563700929946 /* LoginScreen.swift */; };
 		E16FC5062B915AC100929946 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC5052B915AC100929946 /* LoginViewModel.swift */; };
 		E16FC51F2B94D06800929946 /* CalendarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC51E2B94D06800929946 /* CalendarExtension.swift */; };
@@ -82,7 +91,7 @@
 		E17678D22B8EB9B000913490 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = E17678D12B8EB9B000913490 /* Localizable.xcstrings */; };
 		E1BF0ABA2BB100A80084D28F /* TransacaoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF0AB92BB100A80084D28F /* TransacaoModel.swift */; };
 		E1BF0ABD2BB1069B0084D28F /* TransacaoDetalheView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF0ABC2BB1069B0084D28F /* TransacaoDetalheView.swift */; };
-		E1BF0ABF2BB1DE7A0084D28F /* TransacaoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF0ABE2BB1DE7A0084D28F /* TransacaoView.swift */; };
+		E1BF0ABF2BB1DE7A0084D28F /* TransacaoHomeListaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF0ABE2BB1DE7A0084D28F /* TransacaoHomeListaView.swift */; };
 		E1BF0AC12BB1F2200084D28F /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF0AC02BB1F2200084D28F /* HomeScreen.swift */; };
 		E1BF0AC32BB1FB770084D28F /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF0AC22BB1FB770084D28F /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
@@ -121,6 +130,15 @@
 		E1541B612BB64F7900AB4184 /* TransacaoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransacaoRepository.swift; sourceTree = "<group>"; };
 		E1541B632BB64FA200AB4184 /* TransacaoRepository+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TransacaoRepository+Injection.swift"; sourceTree = "<group>"; };
 		E1541B652BB651AA00AB4184 /* TransacaoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransacaoViewModel.swift; sourceTree = "<group>"; };
+		E1541B6D2BB7911000AB4184 /* PerfilModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilModel.swift; sourceTree = "<group>"; };
+		E1541B6F2BB7936F00AB4184 /* PerfilRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilRepository.swift; sourceTree = "<group>"; };
+		E1541B712BB7941400AB4184 /* PerfilRepository+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PerfilRepository+Injection.swift"; sourceTree = "<group>"; };
+		E1541B732BB7949C00AB4184 /* PerfilViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilViewModel.swift; sourceTree = "<group>"; };
+		E1541B752BB79A5900AB4184 /* PerfilDetalheView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilDetalheView.swift; sourceTree = "<group>"; };
+		E1541B772BB79A6C00AB4184 /* PerfilListaScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilListaScreen.swift; sourceTree = "<group>"; };
+		E1541B792BB85DDF00AB4184 /* PerfilAddEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilAddEditView.swift; sourceTree = "<group>"; };
+		E1541B7B2BB8639B00AB4184 /* TransacaoListaScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransacaoListaScreen.swift; sourceTree = "<group>"; };
+		E1541B7D2BB8671900AB4184 /* TransacaoAddEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransacaoAddEditView.swift; sourceTree = "<group>"; };
 		E16FC5022B91563700929946 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		E16FC5052B915AC100929946 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		E16FC51E2B94D06800929946 /* CalendarExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarExtension.swift; sourceTree = "<group>"; };
@@ -136,7 +154,7 @@
 		E17678D12B8EB9B000913490 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		E1BF0AB92BB100A80084D28F /* TransacaoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransacaoModel.swift; sourceTree = "<group>"; };
 		E1BF0ABC2BB1069B0084D28F /* TransacaoDetalheView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransacaoDetalheView.swift; sourceTree = "<group>"; };
-		E1BF0ABE2BB1DE7A0084D28F /* TransacaoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransacaoView.swift; sourceTree = "<group>"; };
+		E1BF0ABE2BB1DE7A0084D28F /* TransacaoHomeListaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransacaoHomeListaView.swift; sourceTree = "<group>"; };
 		E1BF0AC02BB1F2200084D28F /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		E1BF0AC22BB1FB770084D28F /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -443,6 +461,7 @@
 		E1541B5F2BB6471100AB4184 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				E1541B7B2BB8639B00AB4184 /* TransacaoListaScreen.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -454,6 +473,60 @@
 				E1541B632BB64FA200AB4184 /* TransacaoRepository+Injection.swift */,
 			);
 			path = Repository;
+			sourceTree = "<group>";
+		};
+		E1541B672BB78FC800AB4184 /* Perfil */ = {
+			isa = PBXGroup;
+			children = (
+				E1541B682BB78FD300AB4184 /* Model */,
+				E1541B692BB78FDC00AB4184 /* Repository */,
+				E1541B6C2BB7902600AB4184 /* Screen */,
+				E1541B6A2BB7901300AB4184 /* View */,
+				E1541B6B2BB7901B00AB4184 /* ViewModel */,
+			);
+			path = Perfil;
+			sourceTree = "<group>";
+		};
+		E1541B682BB78FD300AB4184 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1541B6D2BB7911000AB4184 /* PerfilModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1541B692BB78FDC00AB4184 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				E1541B6F2BB7936F00AB4184 /* PerfilRepository.swift */,
+				E1541B712BB7941400AB4184 /* PerfilRepository+Injection.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		E1541B6A2BB7901300AB4184 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1541B752BB79A5900AB4184 /* PerfilDetalheView.swift */,
+				E1541B792BB85DDF00AB4184 /* PerfilAddEditView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1541B6B2BB7901B00AB4184 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E1541B732BB7949C00AB4184 /* PerfilViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E1541B6C2BB7902600AB4184 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				E1541B772BB79A6C00AB4184 /* PerfilListaScreen.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 		E16FC4F42B9153B800929946 /* Login */ = {
@@ -658,6 +731,7 @@
 				E16FC4F52B9153C200929946 /* Home */,
 				E16FC4F42B9153B800929946 /* Login */,
 				E1071FA42BAA603C004CFCAB /* Orcamento */,
+				E1541B672BB78FC800AB4184 /* Perfil */,
 				E16FC4F62B9153CB00929946 /* Settings */,
 				E1BF0AB72BAF2E140084D28F /* Transacoes */,
 			);
@@ -687,8 +761,9 @@
 		E1BF0ABB2BB106100084D28F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E1541B7D2BB8671900AB4184 /* TransacaoAddEditView.swift */,
 				E1BF0ABC2BB1069B0084D28F /* TransacaoDetalheView.swift */,
-				E1BF0ABE2BB1DE7A0084D28F /* TransacaoView.swift */,
+				E1BF0ABE2BB1DE7A0084D28F /* TransacaoHomeListaView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -826,10 +901,12 @@
 			files = (
 				E132FC382B97FE6000183725 /* TabBarController.swift in Sources */,
 				E16FC5062B915AC100929946 /* LoginViewModel.swift in Sources */,
+				E1541B762BB79A5900AB4184 /* PerfilDetalheView.swift in Sources */,
 				E132FC3B2B98001D00183725 /* TabBarView.swift in Sources */,
 				E1541B622BB64F7900AB4184 /* TransacaoRepository.swift in Sources */,
 				E1541B642BB64FA200AB4184 /* TransacaoRepository+Injection.swift in Sources */,
 				E1BF0ABD2BB1069B0084D28F /* TransacaoDetalheView.swift in Sources */,
+				E1541B722BB7941400AB4184 /* PerfilRepository+Injection.swift in Sources */,
 				E1541B5B2BB466E600AB4184 /* CategoriaAddEditView.swift in Sources */,
 				E1071F972BA8B33E004CFCAB /* BancoListaScreen.swift in Sources */,
 				E1071F822BA68305004CFCAB /* ContaRepository+Injection.swift in Sources */,
@@ -845,28 +922,35 @@
 				E1071F782B9E9939004CFCAB /* ContaViewModel.swift in Sources */,
 				E1071FA02BAA5D1E004CFCAB /* AppTheme.swift in Sources */,
 				E1071F802BA67C7D004CFCAB /* ContaAddEditView.swift in Sources */,
+				E1541B6E2BB7911000AB4184 /* PerfilModel.swift in Sources */,
 				E1541B5D2BB4670000AB4184 /* CategoriaViewModel.swift in Sources */,
 				E1071F7E2B9FC791004CFCAB /* ContaDetalheView.swift in Sources */,
 				E132FC3D2B9800FE00183725 /* TabBarItemView.swift in Sources */,
+				E1541B702BB7936F00AB4184 /* PerfilRepository.swift in Sources */,
 				E1071FA32BAA5EC4004CFCAB /* AppCheck.swift in Sources */,
 				E1BF0AC32BB1FB770084D28F /* ColorExtension.swift in Sources */,
 				E1071FAC2BAB0D1C004CFCAB /* GaugeStyle.swift in Sources */,
 				E1541B592BB466CE00AB4184 /* CategoriaDetalheView.swift in Sources */,
 				E1071F752B9E8B83004CFCAB /* ContaModel.swift in Sources */,
 				E16FC5312B968A7000929946 /* HomeTabsScreen.swift in Sources */,
+				E1541B742BB7949C00AB4184 /* PerfilViewModel.swift in Sources */,
 				E1541B512BB3155600AB4184 /* CategoriaModel.swift in Sources */,
 				E1071FA82BAA61C1004CFCAB /* OrcamentoScreen.swift in Sources */,
+				E1541B782BB79A6C00AB4184 /* PerfilListaScreen.swift in Sources */,
+				E1541B7A2BB85DDF00AB4184 /* PerfilAddEditView.swift in Sources */,
 				E17678882B8EA44D00913490 /* GeldApp.swift in Sources */,
 				E1541B572BB4655900AB4184 /* CategoriaListaScreen.swift in Sources */,
 				E1071F722B9E8B0F004CFCAB /* ContaRepository.swift in Sources */,
 				E1071F882BA68937004CFCAB /* Firebase+Injection.swift in Sources */,
-				E1BF0ABF2BB1DE7A0084D28F /* TransacaoView.swift in Sources */,
+				E1BF0ABF2BB1DE7A0084D28F /* TransacaoHomeListaView.swift in Sources */,
 				E1071F952BA8B20D004CFCAB /* BancoRepository+Injection.swift in Sources */,
+				E1541B7E2BB8671900AB4184 /* TransacaoAddEditView.swift in Sources */,
 				E16FC5232B94D0CC00929946 /* StringExtension.swift in Sources */,
 				E16FC5032B91563700929946 /* LoginScreen.swift in Sources */,
 				E1071F9B2BA8B491004CFCAB /* BancoAddEditView.swift in Sources */,
 				E1071F922BA89E88004CFCAB /* BancoRepository.swift in Sources */,
 				E1541B552BB31B6300AB4184 /* Repository+Injection.swift in Sources */,
+				E1541B7C2BB8639B00AB4184 /* TransacaoListaScreen.swift in Sources */,
 				E1071F902BA89C9F004CFCAB /* BancoModel.swift in Sources */,
 				E1BF0ABA2BB100A80084D28F /* TransacaoModel.swift in Sources */,
 			);

@@ -9,16 +9,21 @@ import SwiftUI
 
 struct TransacaoDetalheView: View
 {
-    var transacao: Transacao
+    @Binding var transacao: Transacao
+    var isHome: Bool
 
     var body: some View
     {
         ZStack
         {
-            RoundedRectangle(cornerRadius: 15)
-                .fill(.thinMaterial)
-                .frame(width: .infinity, height: 80)
-                .padding([.leading, .trailing], 10)
+
+            if isHome
+            {
+                RoundedRectangle(cornerRadius: 15)
+                    .fill(.thinMaterial)
+                    .frame(width: .infinity, height: 80)
+                    .padding([.leading, .trailing], 10)
+            }
 
             HStack
             {

@@ -13,6 +13,7 @@ enum Tabs: String
     case account
     case transfer
     case deposit
+    case perfil
 }
 
 struct HomeTabsScreen: View
@@ -34,25 +35,23 @@ struct HomeTabsScreen: View
                 HomeScreen()
                     .tabItem { Label("Home", systemImage: "house")}
                     .tag(Tabs.home)
-                
-                Text("Transfer")
-                    .tabItem
-                { Label("Transfer", systemImage: "arrow.left.arrow.right")  }
+
+                TransacaoListaScreen()
+                    .tabItem { Label("Transacoes", systemImage: "arrow.left.arrow.right")}
+                    .tag(Tabs.account)
 
                 ContaListaScreen()
-                    .tabItem { Label("Contas", systemImage: "house")}
+                    .tabItem { Label("Contas", systemImage: "macwindow")}
                     .tag(Tabs.account)
                 
                 CategoriaListaScreen()
-                    .tabItem { Label("Categorias", systemImage: "house")}
+                    .tabItem { Label("Categorias", systemImage: "list.bullet.clipboard")}
                     .tag(Tabs.account)
-                Text("Contas")
-                    .tabItem
-                { Label("Contas", systemImage: "house")  }
-                
-                Text("Contas")
-                    .tabItem
-                { Label("Contas", systemImage: "house")  }
+
+                PerfilListaScreen()
+                    .tabItem { Label("Perfis", systemImage: "person")}
+                    .tag(Tabs.perfil)
+
             }
         }
     }
