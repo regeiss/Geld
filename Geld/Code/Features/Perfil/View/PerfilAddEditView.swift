@@ -72,8 +72,3 @@ struct PerfilAddEditView: View
         }
     }
 }
-
-
-//#Preview {
-//    PerfilAddEditView()
-//}

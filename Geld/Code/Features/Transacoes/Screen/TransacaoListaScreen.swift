@@ -62,6 +62,3 @@ struct TransacaoListaScreen: View
         isAddDialogPresented.toggle()
     }
 }
-//#Preview {
-//    TransacaoListaScreen()
-//}

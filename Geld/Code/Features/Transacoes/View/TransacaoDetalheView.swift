@@ -53,8 +53,8 @@ struct TransacaoDetalheView: View
                         .padding(.trailing, 10)
                 }
             }
-            .frame(width: .infinity, height: 80)
-            .padding([.leading, .trailing], 10)
+//            .frame(width: .infinity, height: 80)
+//            .padding([.leading, .trailing], 10)
         }
     }
 }

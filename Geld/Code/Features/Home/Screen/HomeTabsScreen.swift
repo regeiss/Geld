@@ -10,8 +10,8 @@ import SwiftUI
 enum Tabs: String
 {
     case home
-    case account
-    case transfer
+    case conta
+    case transferencia
     case deposit
     case perfil
 }
@@ -19,7 +19,6 @@ enum Tabs: String
 struct HomeTabsScreen: View
 {
     @State var selectedTab: Tabs = .home
-    
 
     init()
     {
@@ -38,15 +37,15 @@ struct HomeTabsScreen: View
 
                 TransacaoListaScreen()
                     .tabItem { Label("Transacoes", systemImage: "arrow.left.arrow.right")}
-                    .tag(Tabs.account)
+                    .tag(Tabs.conta)
 
                 ContaListaScreen()
-                    .tabItem { Label("Contas", systemImage: "macwindow")}
-                    .tag(Tabs.account)
+                    .tabItem { Label("Cartões", systemImage: "creditcard")}
+                    .tag(Tabs.conta)
                 
                 CategoriaListaScreen()
                     .tabItem { Label("Categorias", systemImage: "list.bullet.clipboard")}
-                    .tag(Tabs.account)
+                    .tag(Tabs.conta)
 
                 PerfilListaScreen()
                     .tabItem { Label("Perfis", systemImage: "person")}

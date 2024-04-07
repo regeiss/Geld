@@ -42,7 +42,3 @@ struct OrcamentoScreen: View
         }
     }
 }
-
-//#Preview {
-//    OrcamentoScreen()
-//}

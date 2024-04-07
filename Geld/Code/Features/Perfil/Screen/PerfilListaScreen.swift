@@ -62,8 +62,3 @@ struct PerfilListaScreen: View
         isAddDialogPresented.toggle()
     }
 }
-
-
-//#Preview {
-//    PerfilScreen()
-//}

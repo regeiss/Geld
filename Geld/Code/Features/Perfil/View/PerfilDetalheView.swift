@@ -20,8 +20,3 @@ struct PerfilDetalheView: View
         }.contentShape(Rectangle())
     }
 }
-
-
-//#Preview {
-//    PerfilDetalheView()
-//}

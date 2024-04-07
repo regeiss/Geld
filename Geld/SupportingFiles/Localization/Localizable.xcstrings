@@ -30,6 +30,9 @@
     "Cancelar" : {
 
     },
+    "Cartões" : {
+
+    },
     "Categoria" : {
 
     },
@@ -39,10 +42,7 @@
     "Conta" : {
 
     },
-    "Contas" : {
-
-    },
-    "Cor icone" : {
+    "Cor do icone" : {
 
     },
     "Data" : {
@@ -136,6 +136,9 @@
     "Nova conta" : {
 
     },
+    "Nova transação" : {
+
+    },
     "Novo banco" : {
 
     },
@@ -143,9 +146,6 @@
 
     },
     "Novo perfil" : {
-
-    },
-    "Novo transacao" : {
 
     },
     "Orçamentos" : {

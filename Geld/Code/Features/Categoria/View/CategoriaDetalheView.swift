@@ -20,7 +20,3 @@ struct CategoriaDetalheView: View
         }.contentShape(Rectangle())
     }
 }
-
-//#Preview {
-//    CategoriaDetalheView()
-//}
