@@ -28,6 +28,7 @@
 		E1071FA32BAA5EC4004CFCAB /* AppCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071FA22BAA5EC4004CFCAB /* AppCheck.swift */; };
 		E1071FA82BAA61C1004CFCAB /* OrcamentoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071FA72BAA61C1004CFCAB /* OrcamentoScreen.swift */; };
 		E1071FAC2BAB0D1C004CFCAB /* GaugeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071FAB2BAB0D1C004CFCAB /* GaugeStyle.swift */; };
+		E113659A2BC36E9900C58F01 /* SFSymbolsPicker in Frameworks */ = {isa = PBXBuildFile; productRef = E11365992BC36E9900C58F01 /* SFSymbolsPicker */; };
 		E132FC382B97FE6000183725 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E132FC372B97FE6000183725 /* TabBarController.swift */; };
 		E132FC3B2B98001D00183725 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E132FC3A2B98001D00183725 /* TabBarView.swift */; };
 		E132FC3D2B9800FE00183725 /* TabBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E132FC3C2B9800FE00183725 /* TabBarItemView.swift */; };
@@ -179,6 +180,7 @@
 				E17678C72B8EAAD800913490 /* FirebaseRemoteConfigSwift in Frameworks */,
 				E17678B92B8EAAD800913490 /* FirebaseInAppMessaging-Beta in Frameworks */,
 				E17678AB2B8EAAD800913490 /* FirebaseDatabaseSwift in Frameworks */,
+				E113659A2BC36E9900C58F01 /* SFSymbolsPicker in Frameworks */,
 				E17678B52B8EAAD800913490 /* FirebaseFunctions in Frameworks */,
 				E17678CB2B8EAAD800913490 /* FirebaseStorageCombine-Community in Frameworks */,
 				E17678C52B8EAAD800913490 /* FirebaseRemoteConfig in Frameworks */,
@@ -814,6 +816,7 @@
 				E17678C82B8EAAD800913490 /* FirebaseStorage */,
 				E17678CA2B8EAAD800913490 /* FirebaseStorageCombine-Community */,
 				E1071F842BA685FC004CFCAB /* Factory */,
+				E11365992BC36E9900C58F01 /* SFSymbolsPicker */,
 			);
 			productName = Geld;
 			productReference = E17678842B8EA44D00913490 /* Geld.app */;
@@ -847,6 +850,7 @@
 			packageReferences = (
 				E17678952B8EAAD700913490 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				E1071F832BA685FC004CFCAB /* XCRemoteSwiftPackageReference "Factory" */,
+				E11365982BC36E9900C58F01 /* XCRemoteSwiftPackageReference "SFSymbolsPicker" */,
 			);
 			productRefGroup = E17678852B8EA44D00913490 /* Products */;
 			projectDirPath = "";
@@ -1172,6 +1176,14 @@
 				minimumVersion = 2.3.1;
 			};
 		};
+		E11365982BC36E9900C58F01 /* XCRemoteSwiftPackageReference "SFSymbolsPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alessiorubicini/SFSymbolsPicker";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.6;
+			};
+		};
 		E17678952B8EAAD700913490 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -1187,6 +1199,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E1071F832BA685FC004CFCAB /* XCRemoteSwiftPackageReference "Factory" */;
 			productName = Factory;
+		};
+		E11365992BC36E9900C58F01 /* SFSymbolsPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E11365982BC36E9900C58F01 /* XCRemoteSwiftPackageReference "SFSymbolsPicker" */;
+			productName = SFSymbolsPicker;
 		};
 		E17678962B8EAAD800913490 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;

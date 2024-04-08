@@ -32,7 +32,7 @@ struct TransacaoListaScreen: View
                     editableTransacao = transacao
                 }
             }
-            .navigationTitle("Transacao")
+            .navigationTitle("Transação")
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing)
                 {

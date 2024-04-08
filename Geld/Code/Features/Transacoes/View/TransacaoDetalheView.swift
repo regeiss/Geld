@@ -12,6 +12,9 @@ struct TransacaoDetalheView: View
     @Binding var transacao: Transacao
     var isHome: Bool
 
+    var hex: String = ""
+    var color: Color = .gray
+
     var body: some View
     {
         ZStack
@@ -21,7 +24,7 @@ struct TransacaoDetalheView: View
             {
                 RoundedRectangle(cornerRadius: 15)
                     .fill(.thinMaterial)
-                    .frame(width: .infinity, height: 80)
+                    .frame(width: UIScreen.main.bounds.width - 20, height: 80)
                     .padding([.leading, .trailing], 10)
             }
 
@@ -30,7 +33,7 @@ struct TransacaoDetalheView: View
                 ZStack
                 {
                     RoundedRectangle(cornerRadius: 10)
-                        .fill(Color(hex: transacao.iconeCor))
+                        .fill(Color(hex: transacao.iconeCor) ?? .gray)
                         .frame(width: 45, height: 45)
 
                     Image(systemName: transacao.icone)
@@ -53,8 +56,6 @@ struct TransacaoDetalheView: View
                         .padding(.trailing, 10)
                 }
             }
-//            .frame(width: .infinity, height: 80)
-//            .padding([.leading, .trailing], 10)
         }
     }
 }

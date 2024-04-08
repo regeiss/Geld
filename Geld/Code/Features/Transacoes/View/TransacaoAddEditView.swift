@@ -6,9 +6,11 @@
 //
 
 import SwiftUI
+import SFSymbolsPicker
 
-struct TransacaoAddEditView: View 
+struct TransacaoAddEditView: View
 {
+    // MARK: - Enums
     enum FocusableField: Hashable
     {
         case nome
@@ -20,15 +22,20 @@ struct TransacaoAddEditView: View
         case edit
     }
 
+    // MARK: - Vars
+    @Environment(\.dismiss) private var dismiss
     @FocusState private var focusedField: FocusableField?
     @State var transacao = Transacao(icone: "", iconeCor: "", nome: "", data: Date(), valor: 0)
     @State var iconColor = Color("aqua")
+    @State private var icon = "star.fill"
+    @State private var isPresented = false
 
-    @Environment(\.dismiss) private var dismiss
-
+    var hex: String = ""
+    var color: Color = .gray
     var mode: Mode = .add
     let onCommit: (_ transacao: Transacao) -> Void
 
+    // MARK: - Body
     var body: some View
     {
         NavigationStack
@@ -37,46 +44,63 @@ struct TransacaoAddEditView: View
             {
                 TextField("Nome", text: $transacao.nome)
                     .focused($focusedField, equals: .nome)
-                TextField("icone", text: $transacao.icone)
 
-                VStack 
+                VStack
                 {
                     ColorPicker("Cor do icone", selection: $iconColor, supportsOpacity: false)
                 }
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
 
+                VStack
+                {
+                    Button("Selecione um ícone")
+                    {
+                        isPresented.toggle()
+                    }
+
+                    Image(systemName: icon).font(.title3)
+
+                        .sheet(isPresented: $isPresented, content: {
+                            SymbolsPicker(selection: $icon, title: "Pick a symbol", autoDismiss: true)
+                        }).padding()
+                }
+
                 DatePicker("Data", selection: $transacao.data)
-                                        .frame(maxHeight: 400)
-                                        .environment(\.locale, Locale.init(identifier: "pt-BR"))
+                    .frame(maxHeight: 400)
+                    .environment(\.locale, Locale.init(identifier: "pt-BR"))
 
                 TextField("Valor", value: $transacao.valor, format: .number)
 
             }.onSubmit {commit() }
-            .navigationTitle(mode == .add ? "Nova transação" : "Detalhes")
-            .navigationBarTitleDisplayMode(.inline)
-            .toolbar {
-                ToolbarItem(placement: .cancellationAction) {
-                    Button(action: cancel) {
-                        Text("Cancelar")
+                .navigationTitle(mode == .add ? "Nova transação" : "Detalhes")
+                .navigationBarTitleDisplayMode(.inline)
+                .toolbar {
+                    ToolbarItem(placement: .cancellationAction) {
+                        Button(action: cancel) {
+                            Text("Cancelar")
+                        }
+                    }
+                    ToolbarItem(placement: .confirmationAction) {
+                        Button(action: commit) {
+                            Text(mode == .add ? "Add" : "Feito")
+                        }
+                        .disabled(transacao.nome.isEmpty)
                     }
                 }
-                ToolbarItem(placement: .confirmationAction) {
-                    Button(action: commit) {
-                        Text(mode == .add ? "Add" : "Feito")
-                    }
-                    .disabled(transacao.nome.isEmpty)
-                }
-            }
-            .onAppear
+                .onAppear
             {
+                icon = transacao.icone
+                iconColor = Color(hex: transacao.iconeCor) ?? .gray
                 focusedField = .nome
             }
         }
     }
 
+    // MARK: - Funcs
     private func commit()
     {
-        transacao.iconeCor = hexStringFromColor(color: Color(uiColor: .iconColor)
+        transacao.icone = icon
+        transacao.iconeCor = iconColor.toHex() ?? ""
         onCommit(transacao)
         dismiss()
     }
@@ -85,15 +109,4 @@ struct TransacaoAddEditView: View
     {
         dismiss()
     }
-
-    func hexStringFromColor(color: UIColor) -> String {
-        let components = color.cgColor.components
-        let r: CGFloat = components?[0] ?? 0.0
-        let g: CGFloat = components?[1] ?? 0.0
-        let b: CGFloat = components?[2] ?? 0.0
-
-        let hexString = String.init(format: "#%02lX%02lX%02lX", lroundf(Float(r * 255)), lroundf(Float(g * 255)), lroundf(Float(b * 255)))
-        print(hexString)
-        return hexString
-     }
 }

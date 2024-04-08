@@ -92,9 +92,6 @@
     "Home" : {
 
     },
-    "icone" : {
-
-    },
     "Login" : {
       "localizations" : {
         "pt-BR" : {
@@ -170,10 +167,13 @@
     "R$" : {
 
     },
+    "Selecione um ícone" : {
+
+    },
     "Semanal" : {
 
     },
-    "Transacao" : {
+    "Transação" : {
 
     },
     "Transacoes" : {

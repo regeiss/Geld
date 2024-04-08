@@ -1,5 +1,5 @@
 {
-  "originHash" : "c6ef031dc6263d22f19d2f44cae0c5f40ea7828e041cb096801853d0458f5fd5",
+  "originHash" : "a4ace340ac8f1cafcca33e7658df94a7533cbd92b9b6a7bc5acf794b76b7506f",
   "pins" : [
     {
       "identity" : "abseil-cpp-binary",
@@ -116,6 +116,15 @@
       "state" : {
         "revision" : "540318ecedd63d883069ae7f1ed811a2df00b6ac",
         "version" : "2.4.0"
+      }
+    },
+    {
+      "identity" : "sfsymbolspicker",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/alessiorubicini/SFSymbolsPicker",
+      "state" : {
+        "revision" : "73c909b8a7fc77a30dd04208e33f759f8b52c4c8",
+        "version" : "1.0.6"
       }
     },
     {
