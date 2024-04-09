@@ -11,9 +11,9 @@ enum Tabs: String
 {
     case home
     case conta
-    case transferencia
-    case deposit
+    case transacao
     case perfil
+    case menu
 }
 
 struct HomeTabsScreen: View
@@ -37,20 +37,19 @@ struct HomeTabsScreen: View
 
                 TransacaoListaScreen()
                     .tabItem { Label("Transacoes", systemImage: "arrow.left.arrow.right")}
-                    .tag(Tabs.conta)
+                    .tag(Tabs.transacao)
 
                 ContaListaScreen()
                     .tabItem { Label("Cartões", systemImage: "creditcard")}
                     .tag(Tabs.conta)
-                
+
                 CategoriaListaScreen()
-                    .tabItem { Label("Categorias", systemImage: "list.bullet.clipboard")}
-                    .tag(Tabs.conta)
+                    .tabItem { Label("Menus", systemImage: "list.bullet.clipboard")}
+                    .tag(Tabs.menu)
 
                 PerfilListaScreen()
                     .tabItem { Label("Perfis", systemImage: "person")}
                     .tag(Tabs.perfil)
-
             }
         }
     }

@@ -29,6 +29,7 @@
 		E1071FA82BAA61C1004CFCAB /* OrcamentoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071FA72BAA61C1004CFCAB /* OrcamentoScreen.swift */; };
 		E1071FAC2BAB0D1C004CFCAB /* GaugeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071FAB2BAB0D1C004CFCAB /* GaugeStyle.swift */; };
 		E113659A2BC36E9900C58F01 /* SFSymbolsPicker in Frameworks */ = {isa = PBXBuildFile; productRef = E11365992BC36E9900C58F01 /* SFSymbolsPicker */; };
+		E11365A12BC4CACF00C58F01 /* MenuListaScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11365A02BC4CACF00C58F01 /* MenuListaScreen.swift */; };
 		E132FC382B97FE6000183725 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E132FC372B97FE6000183725 /* TabBarController.swift */; };
 		E132FC3B2B98001D00183725 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E132FC3A2B98001D00183725 /* TabBarView.swift */; };
 		E132FC3D2B9800FE00183725 /* TabBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E132FC3C2B9800FE00183725 /* TabBarItemView.swift */; };
@@ -118,6 +119,7 @@
 		E1071FA22BAA5EC4004CFCAB /* AppCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCheck.swift; sourceTree = "<group>"; };
 		E1071FA72BAA61C1004CFCAB /* OrcamentoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrcamentoScreen.swift; sourceTree = "<group>"; };
 		E1071FAB2BAB0D1C004CFCAB /* GaugeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeStyle.swift; sourceTree = "<group>"; };
+		E11365A02BC4CACF00C58F01 /* MenuListaScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListaScreen.swift; sourceTree = "<group>"; };
 		E132FC372B97FE6000183725 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		E132FC3A2B98001D00183725 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		E132FC3C2B9800FE00183725 /* TabBarItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemView.swift; sourceTree = "<group>"; };
@@ -370,6 +372,46 @@
 				E1071FAB2BAB0D1C004CFCAB /* GaugeStyle.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		E113659B2BC4C59300C58F01 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				E113659E2BC4C5F400C58F01 /* Model */,
+				E113659C2BC4C5A200C58F01 /* Screen */,
+				E113659D2BC4C5E200C58F01 /* View */,
+				E113659F2BC4C60700C58F01 /* ViewModel */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		E113659C2BC4C5A200C58F01 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				E11365A02BC4CACF00C58F01 /* MenuListaScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		E113659D2BC4C5E200C58F01 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E113659E2BC4C5F400C58F01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E113659F2BC4C60700C58F01 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		E132FC362B97FE4400183725 /* TabBar */ = {
@@ -726,6 +768,7 @@
 		E17678D42B8EBB2C00913490 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				E113659B2BC4C59300C58F01 /* Menu */,
 				E1071F892BA898EE004CFCAB /* Banco */,
 				E1541B4A2BB3143400AB4184 /* Categoria */,
 				E16FC4F82B91543E00929946 /* Common */,
@@ -954,6 +997,7 @@
 				E1071F9B2BA8B491004CFCAB /* BancoAddEditView.swift in Sources */,
 				E1071F922BA89E88004CFCAB /* BancoRepository.swift in Sources */,
 				E1541B552BB31B6300AB4184 /* Repository+Injection.swift in Sources */,
+				E11365A12BC4CACF00C58F01 /* MenuListaScreen.swift in Sources */,
 				E1541B7C2BB8639B00AB4184 /* TransacaoListaScreen.swift in Sources */,
 				E1071F902BA89C9F004CFCAB /* BancoModel.swift in Sources */,
 				E1BF0ABA2BB100A80084D28F /* TransacaoModel.swift in Sources */,
