@@ -42,14 +42,22 @@ struct PerfilAddEditView: View
     {
         NavigationStack
         {
-            Form
-            {
-                TextField("Nome", text: $perfil.nome)
-                    .focused($focusedField, equals: .nome)
-                    .onSubmit {
-                        commit()
+            VStack {
+                        VStack {
+                            Header()
+                            ProfileText()
+                        }
+                        Spacer()
+//                        Button (
+//                            action: { self.isPresented = true },
+//                            label: {
+//                                Label("Edit", systemImage: "pencil")
+//                        })
+//                        .sheet(isPresented: $isPresented, content: {
+//                            SettingsView()
+//                        })
                     }
-            }
+
             .navigationTitle(mode == .add ? "Novo perfil" : "Detalhes")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {

@@ -30,6 +30,12 @@
 		E1071FAC2BAB0D1C004CFCAB /* GaugeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071FAB2BAB0D1C004CFCAB /* GaugeStyle.swift */; };
 		E113659A2BC36E9900C58F01 /* SFSymbolsPicker in Frameworks */ = {isa = PBXBuildFile; productRef = E11365992BC36E9900C58F01 /* SFSymbolsPicker */; };
 		E11365A12BC4CACF00C58F01 /* MenuListaScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11365A02BC4CACF00C58F01 /* MenuListaScreen.swift */; };
+		E11365A32BC5FC0200C58F01 /* MenuPrincipalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11365A22BC5FC0200C58F01 /* MenuPrincipalModel.swift */; };
+		E11365A52BC6051500C58F01 /* MenuPrincipalItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11365A42BC6051500C58F01 /* MenuPrincipalItemView.swift */; };
+		E11365A92BC89C2600C58F01 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11365A82BC89C2600C58F01 /* SettingsScreen.swift */; };
+		E11365AB2BC89CF800C58F01 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11365AA2BC89CF800C58F01 /* UserProfileView.swift */; };
+		E11365AD2BC89D1B00C58F01 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11365AC2BC89D1B00C58F01 /* AuthenticationView.swift */; };
+		E11365B02BCADD8500C58F01 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11365AF2BCADD8500C58F01 /* SettingsViewModel.swift */; };
 		E132FC382B97FE6000183725 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E132FC372B97FE6000183725 /* TabBarController.swift */; };
 		E132FC3B2B98001D00183725 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E132FC3A2B98001D00183725 /* TabBarView.swift */; };
 		E132FC3D2B9800FE00183725 /* TabBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E132FC3C2B9800FE00183725 /* TabBarItemView.swift */; };
@@ -120,6 +126,12 @@
 		E1071FA72BAA61C1004CFCAB /* OrcamentoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrcamentoScreen.swift; sourceTree = "<group>"; };
 		E1071FAB2BAB0D1C004CFCAB /* GaugeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeStyle.swift; sourceTree = "<group>"; };
 		E11365A02BC4CACF00C58F01 /* MenuListaScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListaScreen.swift; sourceTree = "<group>"; };
+		E11365A22BC5FC0200C58F01 /* MenuPrincipalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPrincipalModel.swift; sourceTree = "<group>"; };
+		E11365A42BC6051500C58F01 /* MenuPrincipalItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPrincipalItemView.swift; sourceTree = "<group>"; };
+		E11365A82BC89C2600C58F01 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		E11365AA2BC89CF800C58F01 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		E11365AC2BC89D1B00C58F01 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		E11365AF2BCADD8500C58F01 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		E132FC372B97FE6000183725 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		E132FC3A2B98001D00183725 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		E132FC3C2B9800FE00183725 /* TabBarItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemView.swift; sourceTree = "<group>"; };
@@ -396,6 +408,7 @@
 		E113659D2BC4C5E200C58F01 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E11365A42BC6051500C58F01 /* MenuPrincipalItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -403,6 +416,7 @@
 		E113659E2BC4C5F400C58F01 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E11365A22BC5FC0200C58F01 /* MenuPrincipalModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -410,6 +424,31 @@
 		E113659F2BC4C60700C58F01 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E11365A62BC89C0500C58F01 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E11365AA2BC89CF800C58F01 /* UserProfileView.swift */,
+				E11365AC2BC89D1B00C58F01 /* AuthenticationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E11365A72BC89C0D00C58F01 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				E11365A82BC89C2600C58F01 /* SettingsScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		E11365AE2BCADD6800C58F01 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E11365AF2BCADD8500C58F01 /* SettingsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -597,6 +636,9 @@
 		E16FC4F62B9153CB00929946 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				E11365A72BC89C0D00C58F01 /* Screen */,
+				E11365A62BC89C0500C58F01 /* View */,
+				E11365AE2BCADD6800C58F01 /* ViewModel */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -768,13 +810,13 @@
 		E17678D42B8EBB2C00913490 /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				E113659B2BC4C59300C58F01 /* Menu */,
 				E1071F892BA898EE004CFCAB /* Banco */,
 				E1541B4A2BB3143400AB4184 /* Categoria */,
 				E16FC4F82B91543E00929946 /* Common */,
 				E1071F6F2B9E8AB2004CFCAB /* Conta */,
 				E16FC4F52B9153C200929946 /* Home */,
 				E16FC4F42B9153B800929946 /* Login */,
+				E113659B2BC4C59300C58F01 /* Menu */,
 				E1071FA42BAA603C004CFCAB /* Orcamento */,
 				E1541B672BB78FC800AB4184 /* Perfil */,
 				E16FC4F62B9153CB00929946 /* Settings */,
@@ -957,8 +999,10 @@
 				E1541B5B2BB466E600AB4184 /* CategoriaAddEditView.swift in Sources */,
 				E1071F972BA8B33E004CFCAB /* BancoListaScreen.swift in Sources */,
 				E1071F822BA68305004CFCAB /* ContaRepository+Injection.swift in Sources */,
+				E11365A32BC5FC0200C58F01 /* MenuPrincipalModel.swift in Sources */,
 				E16FC5212B94D08600929946 /* DateExtension.swift in Sources */,
 				E1071F992BA8B42C004CFCAB /* BancoDetalheView.swift in Sources */,
+				E11365AD2BC89D1B00C58F01 /* AuthenticationView.swift in Sources */,
 				E1541B662BB651AA00AB4184 /* TransacaoViewModel.swift in Sources */,
 				E16FC51F2B94D06800929946 /* CalendarExtension.swift in Sources */,
 				E1071F7C2B9FC3C7004CFCAB /* ContaListaScreen.swift in Sources */,
@@ -973,6 +1017,7 @@
 				E1541B5D2BB4670000AB4184 /* CategoriaViewModel.swift in Sources */,
 				E1071F7E2B9FC791004CFCAB /* ContaDetalheView.swift in Sources */,
 				E132FC3D2B9800FE00183725 /* TabBarItemView.swift in Sources */,
+				E11365AB2BC89CF800C58F01 /* UserProfileView.swift in Sources */,
 				E1541B702BB7936F00AB4184 /* PerfilRepository.swift in Sources */,
 				E1071FA32BAA5EC4004CFCAB /* AppCheck.swift in Sources */,
 				E1BF0AC32BB1FB770084D28F /* ColorExtension.swift in Sources */,
@@ -981,6 +1026,7 @@
 				E1071F752B9E8B83004CFCAB /* ContaModel.swift in Sources */,
 				E16FC5312B968A7000929946 /* HomeTabsScreen.swift in Sources */,
 				E1541B742BB7949C00AB4184 /* PerfilViewModel.swift in Sources */,
+				E11365B02BCADD8500C58F01 /* SettingsViewModel.swift in Sources */,
 				E1541B512BB3155600AB4184 /* CategoriaModel.swift in Sources */,
 				E1071FA82BAA61C1004CFCAB /* OrcamentoScreen.swift in Sources */,
 				E1541B782BB79A6C00AB4184 /* PerfilListaScreen.swift in Sources */,
@@ -991,8 +1037,10 @@
 				E1071F882BA68937004CFCAB /* Firebase+Injection.swift in Sources */,
 				E1BF0ABF2BB1DE7A0084D28F /* TransacaoHomeListaView.swift in Sources */,
 				E1071F952BA8B20D004CFCAB /* BancoRepository+Injection.swift in Sources */,
+				E11365A92BC89C2600C58F01 /* SettingsScreen.swift in Sources */,
 				E1541B7E2BB8671900AB4184 /* TransacaoAddEditView.swift in Sources */,
 				E16FC5232B94D0CC00929946 /* StringExtension.swift in Sources */,
+				E11365A52BC6051500C58F01 /* MenuPrincipalItemView.swift in Sources */,
 				E16FC5032B91563700929946 /* LoginScreen.swift in Sources */,
 				E1071F9B2BA8B491004CFCAB /* BancoAddEditView.swift in Sources */,
 				E1071F922BA89E88004CFCAB /* BancoRepository.swift in Sources */,

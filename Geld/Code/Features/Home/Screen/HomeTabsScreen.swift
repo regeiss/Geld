@@ -43,7 +43,7 @@ struct HomeTabsScreen: View
                     .tabItem { Label("Cartões", systemImage: "creditcard")}
                     .tag(Tabs.conta)
 
-                CategoriaListaScreen()
+                MenuListaScreen()
                     .tabItem { Label("Menus", systemImage: "list.bullet.clipboard")}
                     .tag(Tabs.menu)
 

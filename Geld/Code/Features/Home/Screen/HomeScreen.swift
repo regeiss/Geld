@@ -15,6 +15,6 @@ struct HomeScreen: View
         {
             OrcamentoScreen()
             TransacaoHomeListaView()
-        }
+        }.background(Color("backGroundColor"))
     }
 }

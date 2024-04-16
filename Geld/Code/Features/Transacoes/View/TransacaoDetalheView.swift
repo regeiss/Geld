@@ -39,9 +39,9 @@ struct TransacaoDetalheView: View
                     Image(systemName: transacao.icone)
                         .imageScale(.large)
                         .colorInvert()
-                }.padding(.leading, 10)
+                }.padding(.leading, isHome ? 10 : 0)
 
-                VStack(alignment: .leading, spacing: 2)
+                VStack(alignment: .leading)
                 {
                     Text(transacao.nome).bold()
                     Text(transacao.data, format: Date.FormatStyle().year().month().day())
@@ -53,7 +53,7 @@ struct TransacaoDetalheView: View
                     Text(String(format: "%.2f", transacao.valor).toCurrencyFormat())
                         .bold()
                         .foregroundStyle(transacao.valor > 0 ? .blue : .red)
-                        .padding(.trailing, 10)
+                        .padding(.trailing, isHome ? 10 : 0)
                 }
             }
         }
