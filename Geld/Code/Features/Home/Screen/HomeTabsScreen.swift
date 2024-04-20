@@ -19,6 +19,8 @@ enum Tabs: String
 struct HomeTabsScreen: View
 {
     @State var selectedTab: Tabs = .home
+    @State private var oldSelectedItem: Int = 1
+    @State private var isSheetVisible = false
 
     init()
     {
@@ -43,14 +45,30 @@ struct HomeTabsScreen: View
                     .tabItem { Label("Cartões", systemImage: "creditcard")}
                     .tag(Tabs.conta)
 
-                MenuListaScreen()
-                    .tabItem { Label("Menus", systemImage: "list.bullet.clipboard")}
-                    .tag(Tabs.menu)
-
                 PerfilListaScreen()
                     .tabItem { Label("Perfis", systemImage: "person")}
                     .tag(Tabs.perfil)
+
+                Image(systemName: "ellipsis")
+                    .tabItem { Label("Mais", systemImage: "ellipsis")}
+                    .tag(Tabs.menu)
+                    .sheet(isPresented: $isSheetVisible, onDismiss: didDismiss)
+                {
+                    MenuGavetaView()
+                }
+            }
+            .onChange(of: selectedTab) { newValue in
+                if newValue == .menu {
+                    isSheetVisible = true
+                    selectedTab = .home
+                }
+
             }
         }
+
+    }
+    func didDismiss()
+    {
+        // Handle the dismissing action.
     }
 }

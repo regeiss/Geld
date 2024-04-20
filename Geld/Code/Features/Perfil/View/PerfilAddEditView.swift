@@ -48,14 +48,6 @@ struct PerfilAddEditView: View
                             ProfileText()
                         }
                         Spacer()
-//                        Button (
-//                            action: { self.isPresented = true },
-//                            label: {
-//                                Label("Edit", systemImage: "pencil")
-//                        })
-//                        .sheet(isPresented: $isPresented, content: {
-//                            SettingsView()
-//                        })
                     }
 
             .navigationTitle(mode == .add ? "Novo perfil" : "Detalhes")

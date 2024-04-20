@@ -14,7 +14,7 @@ struct GeldApp: App
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     @Environment(\.scenePhase) private var scenePhase
     @AppStorage("contextSet") private var contextSet: Bool = false
-    
+
     var body: some Scene
     {
         WindowGroup
@@ -24,12 +24,11 @@ struct GeldApp: App
     }
 }
 
-class AppDelegate: NSObject, UIApplicationDelegate 
+class AppDelegate: NSObject, UIApplicationDelegate
 {
-  func application(_ application: UIApplication,
-                   didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil) -> Bool 
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil) -> Bool
     {
-    FirebaseApp.configure()
-    return true
-  }
+        FirebaseApp.configure()
+        return true
+    }
 }

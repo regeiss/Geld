@@ -102,6 +102,7 @@
 		E1BF0ABF2BB1DE7A0084D28F /* TransacaoHomeListaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF0ABE2BB1DE7A0084D28F /* TransacaoHomeListaView.swift */; };
 		E1BF0AC12BB1F2200084D28F /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF0AC02BB1F2200084D28F /* HomeScreen.swift */; };
 		E1BF0AC32BB1FB770084D28F /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF0AC22BB1FB770084D28F /* ColorExtension.swift */; };
+		E1EB07EB2BD1DA2C007A8D49 /* MenuGavetaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EB07EA2BD1DA2C007A8D49 /* MenuGavetaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -172,6 +173,7 @@
 		E1BF0ABE2BB1DE7A0084D28F /* TransacaoHomeListaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransacaoHomeListaView.swift; sourceTree = "<group>"; };
 		E1BF0AC02BB1F2200084D28F /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		E1BF0AC22BB1FB770084D28F /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		E1EB07EA2BD1DA2C007A8D49 /* MenuGavetaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuGavetaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -745,6 +747,7 @@
 		E176787B2B8EA44D00913490 = {
 			isa = PBXGroup;
 			children = (
+				E1EB07EA2BD1DA2C007A8D49 /* MenuGavetaView.swift */,
 				E1071F6D2B9E855D004CFCAB /* GoogleService-Info.plist */,
 				E17678CD2B8EAE3900913490 /* .swiftlint.yml */,
 				E17678862B8EA44D00913490 /* Geld */,
@@ -1025,6 +1028,7 @@
 				E1541B592BB466CE00AB4184 /* CategoriaDetalheView.swift in Sources */,
 				E1071F752B9E8B83004CFCAB /* ContaModel.swift in Sources */,
 				E16FC5312B968A7000929946 /* HomeTabsScreen.swift in Sources */,
+				E1EB07EB2BD1DA2C007A8D49 /* MenuGavetaView.swift in Sources */,
 				E1541B742BB7949C00AB4184 /* PerfilViewModel.swift in Sources */,
 				E11365B02BCADD8500C58F01 /* SettingsViewModel.swift in Sources */,
 				E1541B512BB3155600AB4184 /* CategoriaModel.swift in Sources */,
