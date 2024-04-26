@@ -16,10 +16,11 @@ enum Tabs: String
     case menu
 }
 
+@available(iOS 17.0, *)
 struct HomeTabsScreen: View
 {
     @State var selectedTab: Tabs = .home
-    @State private var oldSelectedItem: Int = 1
+    @State var previousTab: Tabs = .home
     @State private var isSheetVisible = false
 
     init()
@@ -55,20 +56,21 @@ struct HomeTabsScreen: View
                     .sheet(isPresented: $isSheetVisible, onDismiss: didDismiss)
                 {
                     MenuGavetaView()
+                        .presentationDetents([.fraction(0.3)])
+                        .presentationDragIndicator(.automatic)
                 }
             }
-            .onChange(of: selectedTab) { newValue in
+            .onChange(of: selectedTab) { oldValue, newValue in
                 if newValue == .menu {
                     isSheetVisible = true
-                    selectedTab = .home
+                    selectedTab = oldValue
                 }
-
             }
         }
-
     }
+
     func didDismiss()
     {
-        // Handle the dismissing action.
+
     }
 }

@@ -13,17 +13,7 @@ struct SettingsScreen: View
     @StateObject var viewModel = SettingsViewModel()
     @State var isShowSignUpDialogPresented = false
 
-    private func signUp()
-    {
-        isShowSignUpDialogPresented.toggle()
-    }
-
-
-    private func signOut()
-    {
-        viewModel.signOut()
-    }
-
+    // MARK: - Body
     var body: some View
     {
         NavigationStack
@@ -32,7 +22,8 @@ struct SettingsScreen: View
             {
                 Section
                 {
-                    NavigationLink(destination: UserProfileView()) {
+                    NavigationLink(destination: UserProfileView()) 
+                    {
                         Label("Account", systemImage: "person.circle")
                     }
                 }
@@ -40,8 +31,10 @@ struct SettingsScreen: View
                 {
                     if viewModel.isGuestUser
                     {
-                        Button(action: signUp) {
-                            HStack {
+                        Button(action: signUp) 
+                        {
+                            HStack
+                            {
                                 Spacer()
                                 Text("Sign up")
                                 Spacer()
@@ -50,16 +43,20 @@ struct SettingsScreen: View
                     }
                     else
                     {
-                        Button(action: signOut) {
-                            HStack {
+                        Button(action: signOut) 
+                        {
+                            HStack 
+                            {
                                 Spacer()
                                 Text("Sign out")
                                 Spacer()
                             }
                         }
                     }
-                } footer: {
-                    HStack {
+                } footer: 
+                {
+                    HStack 
+                    {
                         Spacer()
                         Text(viewModel.loggedInAs)
                         Spacer()
@@ -69,20 +66,29 @@ struct SettingsScreen: View
             .navigationTitle("Settings")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                ToolbarItem(placement: .confirmationAction) {
-                    Button(action: { dismiss() }) {
+                ToolbarItem(placement: .confirmationAction) 
+                {
+                    Button(action: { dismiss() }) 
+                    {
                         Text("Done")
                     }
                 }
             }
-            .sheet(isPresented: $isShowSignUpDialogPresented) {
+            .sheet(isPresented: $isShowSignUpDialogPresented) 
+            {
                 AuthenticationView()
             }
         }
     }
+
+    // MARK: - Funcs
+    private func signUp()
+    {
+        isShowSignUpDialogPresented.toggle()
+    }
+
+    private func signOut()
+    {
+        viewModel.signOut()
+    }
 }
-
-
-//#Preview {
-//    SettingsScreen()
-//}

@@ -24,7 +24,7 @@ struct TransacaoDetalheView: View
             {
                 RoundedRectangle(cornerRadius: 15)
                     .fill(.thinMaterial)
-                    .frame(width: UIScreen.main.bounds.width - 20, height: 80)
+                    .frame(width: UIScreen.main.bounds.width - 20, height: 50)
                     .padding([.leading, .trailing], 10)
             }
 

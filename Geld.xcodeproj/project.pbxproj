@@ -36,6 +36,7 @@
 		E11365AB2BC89CF800C58F01 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11365AA2BC89CF800C58F01 /* UserProfileView.swift */; };
 		E11365AD2BC89D1B00C58F01 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11365AC2BC89D1B00C58F01 /* AuthenticationView.swift */; };
 		E11365B02BCADD8500C58F01 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11365AF2BCADD8500C58F01 /* SettingsViewModel.swift */; };
+		E12E17722BDAAFE90060100D /* PerfilHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12E17712BDAAFE90060100D /* PerfilHeaderView.swift */; };
 		E132FC382B97FE6000183725 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E132FC372B97FE6000183725 /* TabBarController.swift */; };
 		E132FC3B2B98001D00183725 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E132FC3A2B98001D00183725 /* TabBarView.swift */; };
 		E132FC3D2B9800FE00183725 /* TabBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E132FC3C2B9800FE00183725 /* TabBarItemView.swift */; };
@@ -103,6 +104,10 @@
 		E1BF0AC12BB1F2200084D28F /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF0AC02BB1F2200084D28F /* HomeScreen.swift */; };
 		E1BF0AC32BB1FB770084D28F /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF0AC22BB1FB770084D28F /* ColorExtension.swift */; };
 		E1EB07EB2BD1DA2C007A8D49 /* MenuGavetaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EB07EA2BD1DA2C007A8D49 /* MenuGavetaView.swift */; };
+		E1EB07ED2BD56EA5007A8D49 /* UserProfileViewMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EB07EC2BD56EA5007A8D49 /* UserProfileViewMode.swift */; };
+		E1EB07F02BD57381007A8D49 /* AuthenticationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EB07EF2BD57381007A8D49 /* AuthenticationServices.swift */; };
+		E1EB07F22BD57779007A8D49 /* AuthenticationService+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EB07F12BD57779007A8D49 /* AuthenticationService+Injection.swift */; };
+		E1EB07F42BD5D9D6007A8D49 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EB07F32BD5D9D6007A8D49 /* AuthenticationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -133,6 +138,7 @@
 		E11365AA2BC89CF800C58F01 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
 		E11365AC2BC89D1B00C58F01 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
 		E11365AF2BCADD8500C58F01 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		E12E17712BDAAFE90060100D /* PerfilHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilHeaderView.swift; sourceTree = "<group>"; };
 		E132FC372B97FE6000183725 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		E132FC3A2B98001D00183725 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		E132FC3C2B9800FE00183725 /* TabBarItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemView.swift; sourceTree = "<group>"; };
@@ -174,6 +180,10 @@
 		E1BF0AC02BB1F2200084D28F /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		E1BF0AC22BB1FB770084D28F /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		E1EB07EA2BD1DA2C007A8D49 /* MenuGavetaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuGavetaView.swift; sourceTree = "<group>"; };
+		E1EB07EC2BD56EA5007A8D49 /* UserProfileViewMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewMode.swift; sourceTree = "<group>"; };
+		E1EB07EF2BD57381007A8D49 /* AuthenticationServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationServices.swift; sourceTree = "<group>"; };
+		E1EB07F12BD57779007A8D49 /* AuthenticationService+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AuthenticationService+Injection.swift"; sourceTree = "<group>"; };
+		E1EB07F32BD5D9D6007A8D49 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -410,6 +420,7 @@
 		E113659D2BC4C5E200C58F01 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E1EB07EA2BD1DA2C007A8D49 /* MenuGavetaView.swift */,
 				E11365A42BC6051500C58F01 /* MenuPrincipalItemView.swift */,
 			);
 			path = View;
@@ -433,7 +444,6 @@
 		E11365A62BC89C0500C58F01 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				E11365AA2BC89CF800C58F01 /* UserProfileView.swift */,
 				E11365AC2BC89D1B00C58F01 /* AuthenticationView.swift */,
 			);
 			path = View;
@@ -563,6 +573,7 @@
 		E1541B672BB78FC800AB4184 /* Perfil */ = {
 			isa = PBXGroup;
 			children = (
+				E1EB07EE2BD5736E007A8D49 /* Action */,
 				E1541B682BB78FD300AB4184 /* Model */,
 				E1541B692BB78FDC00AB4184 /* Repository */,
 				E1541B6C2BB7902600AB4184 /* Screen */,
@@ -585,6 +596,7 @@
 			children = (
 				E1541B6F2BB7936F00AB4184 /* PerfilRepository.swift */,
 				E1541B712BB7941400AB4184 /* PerfilRepository+Injection.swift */,
+				E1EB07F12BD57779007A8D49 /* AuthenticationService+Injection.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -594,6 +606,8 @@
 			children = (
 				E1541B752BB79A5900AB4184 /* PerfilDetalheView.swift */,
 				E1541B792BB85DDF00AB4184 /* PerfilAddEditView.swift */,
+				E11365AA2BC89CF800C58F01 /* UserProfileView.swift */,
+				E12E17712BDAAFE90060100D /* PerfilHeaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -602,6 +616,8 @@
 			isa = PBXGroup;
 			children = (
 				E1541B732BB7949C00AB4184 /* PerfilViewModel.swift */,
+				E1EB07EC2BD56EA5007A8D49 /* UserProfileViewMode.swift */,
+				E1EB07F32BD5D9D6007A8D49 /* AuthenticationViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -747,7 +763,6 @@
 		E176787B2B8EA44D00913490 = {
 			isa = PBXGroup;
 			children = (
-				E1EB07EA2BD1DA2C007A8D49 /* MenuGavetaView.swift */,
 				E1071F6D2B9E855D004CFCAB /* GoogleService-Info.plist */,
 				E17678CD2B8EAE3900913490 /* .swiftlint.yml */,
 				E17678862B8EA44D00913490 /* Geld */,
@@ -856,6 +871,14 @@
 				E1BF0ABE2BB1DE7A0084D28F /* TransacaoHomeListaView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		E1EB07EE2BD5736E007A8D49 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				E1EB07EF2BD57381007A8D49 /* AuthenticationServices.swift */,
+			);
+			path = Action;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -999,6 +1022,7 @@
 				E1541B642BB64FA200AB4184 /* TransacaoRepository+Injection.swift in Sources */,
 				E1BF0ABD2BB1069B0084D28F /* TransacaoDetalheView.swift in Sources */,
 				E1541B722BB7941400AB4184 /* PerfilRepository+Injection.swift in Sources */,
+				E12E17722BDAAFE90060100D /* PerfilHeaderView.swift in Sources */,
 				E1541B5B2BB466E600AB4184 /* CategoriaAddEditView.swift in Sources */,
 				E1071F972BA8B33E004CFCAB /* BancoListaScreen.swift in Sources */,
 				E1071F822BA68305004CFCAB /* ContaRepository+Injection.swift in Sources */,
@@ -1039,7 +1063,9 @@
 				E1541B572BB4655900AB4184 /* CategoriaListaScreen.swift in Sources */,
 				E1071F722B9E8B0F004CFCAB /* ContaRepository.swift in Sources */,
 				E1071F882BA68937004CFCAB /* Firebase+Injection.swift in Sources */,
+				E1EB07F42BD5D9D6007A8D49 /* AuthenticationViewModel.swift in Sources */,
 				E1BF0ABF2BB1DE7A0084D28F /* TransacaoHomeListaView.swift in Sources */,
+				E1EB07F22BD57779007A8D49 /* AuthenticationService+Injection.swift in Sources */,
 				E1071F952BA8B20D004CFCAB /* BancoRepository+Injection.swift in Sources */,
 				E11365A92BC89C2600C58F01 /* SettingsScreen.swift in Sources */,
 				E1541B7E2BB8671900AB4184 /* TransacaoAddEditView.swift in Sources */,
@@ -1049,6 +1075,8 @@
 				E1071F9B2BA8B491004CFCAB /* BancoAddEditView.swift in Sources */,
 				E1071F922BA89E88004CFCAB /* BancoRepository.swift in Sources */,
 				E1541B552BB31B6300AB4184 /* Repository+Injection.swift in Sources */,
+				E1EB07ED2BD56EA5007A8D49 /* UserProfileViewMode.swift in Sources */,
+				E1EB07F02BD57381007A8D49 /* AuthenticationServices.swift in Sources */,
 				E11365A12BC4CACF00C58F01 /* MenuListaScreen.swift in Sources */,
 				E1541B7C2BB8639B00AB4184 /* TransacaoListaScreen.swift in Sources */,
 				E1071F902BA89C9F004CFCAB /* BancoModel.swift in Sources */,

@@ -7,7 +7,9 @@
 
 import SwiftUI
 import FirebaseCore
+import Factory
 
+@available(iOS 17.0, *)
 @main
 struct GeldApp: App
 {
@@ -26,9 +28,13 @@ struct GeldApp: App
 
 class AppDelegate: NSObject, UIApplicationDelegate
 {
+    @LazyInjected(\.authenticationService)
+    private var authenticationService
+
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil) -> Bool
     {
         FirebaseApp.configure()
+        authenticationService.signInAnonymously()
         return true
     }
 }

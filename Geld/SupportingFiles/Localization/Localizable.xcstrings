@@ -13,6 +13,12 @@
     "Add" : {
 
     },
+    "Ajustes" : {
+
+    },
+    "Anonymous / Guest user" : {
+
+    },
     "Anual" : {
 
     },
@@ -31,6 +37,9 @@
       }
     },
     "Cancelar" : {
+
+    },
+    "Cartao" : {
 
     },
     "Cartões" : {
@@ -78,10 +87,13 @@
         }
       }
     },
-    "Feito" : {
+    "Excluir a conta é permanente. Deseja mesmo excluir?" : {
 
     },
-    "Header Background Color" : {
+    "Excluir conta" : {
+
+    },
+    "Feito" : {
 
     },
     "Hello, world!" : {
@@ -131,9 +143,6 @@
         }
       }
     },
-    "Name" : {
-
-    },
     "New Reminder" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -144,6 +153,9 @@
           }
         }
       }
+    },
+    "No" : {
+
     },
     "Nome" : {
 
@@ -182,13 +194,16 @@
     "Perfis" : {
 
     },
-    "Pick Profile Image" : {
-
-    },
     "Profile" : {
 
     },
+    "Provider" : {
+
+    },
     "R$" : {
+
+    },
+    "Sair" : {
 
     },
     "Selecione um ícone" : {
@@ -204,9 +219,6 @@
 
     },
     "Sign up" : {
-
-    },
-    "Subtitle" : {
 
     },
     "Transação" : {
@@ -229,7 +241,16 @@
         }
       }
     },
+    "UID" : {
+
+    },
     "Valor" : {
+
+    },
+    "Verified" : {
+
+    },
+    "Yes" : {
 
     }
   },

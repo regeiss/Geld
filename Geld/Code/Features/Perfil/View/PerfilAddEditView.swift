@@ -42,14 +42,15 @@ struct PerfilAddEditView: View
     {
         NavigationStack
         {
-            VStack {
-                        VStack {
-                            Header()
-                            ProfileText()
-                        }
-                        Spacer()
-                    }
-
+            VStack 
+            {
+                VStack 
+                {
+                    PerfilHeaderView()
+                    UserProfileView()
+                }
+                Spacer()
+            }
             .navigationTitle(mode == .add ? "Novo perfil" : "Detalhes")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
