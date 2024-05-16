@@ -7,13 +7,14 @@
 
 import SwiftUI
 
+@available(iOS 17.0, *)
 struct HomeScreen: View
 {
     var body: some View 
     {
         VStack
         {
-            OrcamentoScreen()
+            OrcamentoCarrouselScreen()
             TransacaoHomeListaView()
         }.background(Color("backGroundColor"))
     }

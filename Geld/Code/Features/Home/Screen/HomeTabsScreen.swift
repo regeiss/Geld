@@ -57,7 +57,7 @@ struct HomeTabsScreen: View
                 {
                     MenuGavetaView()
                         .presentationDetents([.fraction(0.3)])
-                        .presentationDragIndicator(.automatic)
+                        .presentationDragIndicator(.visible)
                 }
             }
             .onChange(of: selectedTab) { oldValue, newValue in

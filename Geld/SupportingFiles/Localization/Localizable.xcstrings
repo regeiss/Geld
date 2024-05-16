@@ -25,6 +25,9 @@
     "Banco" : {
 
     },
+    "Bancos" : {
+
+    },
     "Bill Pay" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -46,6 +49,9 @@
 
     },
     "Categoria" : {
+
+    },
+    "Categorias" : {
 
     },
     "Conta" : {
@@ -91,6 +97,9 @@
 
     },
     "Excluir conta" : {
+
+    },
+    "Fechar" : {
 
     },
     "Feito" : {
@@ -160,6 +169,9 @@
     "Nome" : {
 
     },
+    "Notificações" : {
+
+    },
     "Nova conta" : {
 
     },
@@ -194,13 +206,13 @@
     "Perfis" : {
 
     },
+    "Privacidade" : {
+
+    },
     "Profile" : {
 
     },
     "Provider" : {
-
-    },
-    "R$" : {
 
     },
     "Sair" : {

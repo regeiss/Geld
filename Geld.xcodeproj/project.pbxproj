@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E104E8822BF005960012F086 /* SwiftUIPager in Frameworks */ = {isa = PBXBuildFile; productRef = E104E8812BF005960012F086 /* SwiftUIPager */; };
+		E104E8842BF01B410012F086 /* OrcamentoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E104E8832BF01B410012F086 /* OrcamentoView.swift */; };
 		E1071F6E2B9E855D004CFCAB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1071F6D2B9E855D004CFCAB /* GoogleService-Info.plist */; };
 		E1071F722B9E8B0F004CFCAB /* ContaRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071F712B9E8B0F004CFCAB /* ContaRepository.swift */; };
 		E1071F752B9E8B83004CFCAB /* ContaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071F742B9E8B83004CFCAB /* ContaModel.swift */; };
@@ -26,8 +28,8 @@
 		E1071F9D2BA8B6D4004CFCAB /* BancoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071F9C2BA8B6D4004CFCAB /* BancoViewModel.swift */; };
 		E1071FA02BAA5D1E004CFCAB /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071F9F2BAA5D1E004CFCAB /* AppTheme.swift */; };
 		E1071FA32BAA5EC4004CFCAB /* AppCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071FA22BAA5EC4004CFCAB /* AppCheck.swift */; };
-		E1071FA82BAA61C1004CFCAB /* OrcamentoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071FA72BAA61C1004CFCAB /* OrcamentoScreen.swift */; };
-		E1071FAC2BAB0D1C004CFCAB /* GaugeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071FAB2BAB0D1C004CFCAB /* GaugeStyle.swift */; };
+		E1071FA82BAA61C1004CFCAB /* OrcamentoCarrouselScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071FA72BAA61C1004CFCAB /* OrcamentoCarrouselScreen.swift */; };
+		E1071FAC2BAB0D1C004CFCAB /* GaugeStylePB.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1071FAB2BAB0D1C004CFCAB /* GaugeStylePB.swift */; };
 		E113659A2BC36E9900C58F01 /* SFSymbolsPicker in Frameworks */ = {isa = PBXBuildFile; productRef = E11365992BC36E9900C58F01 /* SFSymbolsPicker */; };
 		E11365A12BC4CACF00C58F01 /* MenuListaScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11365A02BC4CACF00C58F01 /* MenuListaScreen.swift */; };
 		E11365A32BC5FC0200C58F01 /* MenuPrincipalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11365A22BC5FC0200C58F01 /* MenuPrincipalModel.swift */; };
@@ -103,6 +105,8 @@
 		E1BF0ABF2BB1DE7A0084D28F /* TransacaoHomeListaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF0ABE2BB1DE7A0084D28F /* TransacaoHomeListaView.swift */; };
 		E1BF0AC12BB1F2200084D28F /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF0AC02BB1F2200084D28F /* HomeScreen.swift */; };
 		E1BF0AC32BB1FB770084D28F /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF0AC22BB1FB770084D28F /* ColorExtension.swift */; };
+		E1BF155F2BEAF4830015CB44 /* PrivacidadeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF155E2BEAF4830015CB44 /* PrivacidadeScreen.swift */; };
+		E1BF15622BEAF5140015CB44 /* NotificacoesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF15612BEAF5140015CB44 /* NotificacoesScreen.swift */; };
 		E1EB07EB2BD1DA2C007A8D49 /* MenuGavetaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EB07EA2BD1DA2C007A8D49 /* MenuGavetaView.swift */; };
 		E1EB07ED2BD56EA5007A8D49 /* UserProfileViewMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EB07EC2BD56EA5007A8D49 /* UserProfileViewMode.swift */; };
 		E1EB07F02BD57381007A8D49 /* AuthenticationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EB07EF2BD57381007A8D49 /* AuthenticationServices.swift */; };
@@ -111,6 +115,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E104E8832BF01B410012F086 /* OrcamentoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrcamentoView.swift; sourceTree = "<group>"; };
 		E1071F6D2B9E855D004CFCAB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E1071F712B9E8B0F004CFCAB /* ContaRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContaRepository.swift; sourceTree = "<group>"; };
 		E1071F742B9E8B83004CFCAB /* ContaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContaModel.swift; sourceTree = "<group>"; };
@@ -129,8 +134,8 @@
 		E1071F9C2BA8B6D4004CFCAB /* BancoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BancoViewModel.swift; sourceTree = "<group>"; };
 		E1071F9F2BAA5D1E004CFCAB /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
 		E1071FA22BAA5EC4004CFCAB /* AppCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCheck.swift; sourceTree = "<group>"; };
-		E1071FA72BAA61C1004CFCAB /* OrcamentoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrcamentoScreen.swift; sourceTree = "<group>"; };
-		E1071FAB2BAB0D1C004CFCAB /* GaugeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeStyle.swift; sourceTree = "<group>"; };
+		E1071FA72BAA61C1004CFCAB /* OrcamentoCarrouselScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrcamentoCarrouselScreen.swift; sourceTree = "<group>"; };
+		E1071FAB2BAB0D1C004CFCAB /* GaugeStylePB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeStylePB.swift; sourceTree = "<group>"; };
 		E11365A02BC4CACF00C58F01 /* MenuListaScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListaScreen.swift; sourceTree = "<group>"; };
 		E11365A22BC5FC0200C58F01 /* MenuPrincipalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPrincipalModel.swift; sourceTree = "<group>"; };
 		E11365A42BC6051500C58F01 /* MenuPrincipalItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPrincipalItemView.swift; sourceTree = "<group>"; };
@@ -179,6 +184,8 @@
 		E1BF0ABE2BB1DE7A0084D28F /* TransacaoHomeListaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransacaoHomeListaView.swift; sourceTree = "<group>"; };
 		E1BF0AC02BB1F2200084D28F /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		E1BF0AC22BB1FB770084D28F /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		E1BF155E2BEAF4830015CB44 /* PrivacidadeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacidadeScreen.swift; sourceTree = "<group>"; };
+		E1BF15612BEAF5140015CB44 /* NotificacoesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificacoesScreen.swift; sourceTree = "<group>"; };
 		E1EB07EA2BD1DA2C007A8D49 /* MenuGavetaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuGavetaView.swift; sourceTree = "<group>"; };
 		E1EB07EC2BD56EA5007A8D49 /* UserProfileViewMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewMode.swift; sourceTree = "<group>"; };
 		E1EB07EF2BD57381007A8D49 /* AuthenticationServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationServices.swift; sourceTree = "<group>"; };
@@ -193,6 +200,7 @@
 			files = (
 				E17678A92B8EAAD800913490 /* FirebaseDatabase in Frameworks */,
 				E17678B72B8EAAD800913490 /* FirebaseFunctionsCombine-Community in Frameworks */,
+				E104E8822BF005960012F086 /* SwiftUIPager in Frameworks */,
 				E17678AF2B8EAAD800913490 /* FirebaseFirestore in Frameworks */,
 				E176789B2B8EAAD800913490 /* FirebaseAnalyticsSwift in Frameworks */,
 				E17678972B8EAAD800913490 /* FirebaseAnalytics in Frameworks */,
@@ -370,7 +378,7 @@
 		E1071FA52BAA604A004CFCAB /* Screen */ = {
 			isa = PBXGroup;
 			children = (
-				E1071FA72BAA61C1004CFCAB /* OrcamentoScreen.swift */,
+				E1071FA72BAA61C1004CFCAB /* OrcamentoCarrouselScreen.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -378,6 +386,7 @@
 		E1071FA62BAA6051004CFCAB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E104E8832BF01B410012F086 /* OrcamentoView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -393,7 +402,7 @@
 		E1071FAA2BAB0CF8004CFCAB /* View */ = {
 			isa = PBXGroup;
 			children = (
-				E1071FAB2BAB0D1C004CFCAB /* GaugeStyle.swift */,
+				E1071FAB2BAB0D1C004CFCAB /* GaugeStylePB.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -651,14 +660,14 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
-		E16FC4F62B9153CB00929946 /* Settings */ = {
+		E16FC4F62B9153CB00929946 /* Ajustes */ = {
 			isa = PBXGroup;
 			children = (
 				E11365A72BC89C0D00C58F01 /* Screen */,
 				E11365A62BC89C0500C58F01 /* View */,
 				E11365AE2BCADD6800C58F01 /* ViewModel */,
 			);
-			path = Settings;
+			path = Ajustes;
 			sourceTree = "<group>";
 		};
 		E16FC4F72B9153DB00929946 /* Utilities */ = {
@@ -828,6 +837,7 @@
 		E17678D42B8EBB2C00913490 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				E16FC4F62B9153CB00929946 /* Ajustes */,
 				E1071F892BA898EE004CFCAB /* Banco */,
 				E1541B4A2BB3143400AB4184 /* Categoria */,
 				E16FC4F82B91543E00929946 /* Common */,
@@ -835,9 +845,10 @@
 				E16FC4F52B9153C200929946 /* Home */,
 				E16FC4F42B9153B800929946 /* Login */,
 				E113659B2BC4C59300C58F01 /* Menu */,
+				E1BF155B2BEAED0F0015CB44 /* Notificacoes */,
 				E1071FA42BAA603C004CFCAB /* Orcamento */,
 				E1541B672BB78FC800AB4184 /* Perfil */,
-				E16FC4F62B9153CB00929946 /* Settings */,
+				E1BF155C2BEAED4D0015CB44 /* Privacidade */,
 				E1BF0AB72BAF2E140084D28F /* Transacoes */,
 			);
 			path = Features;
@@ -871,6 +882,38 @@
 				E1BF0ABE2BB1DE7A0084D28F /* TransacaoHomeListaView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		E1BF155B2BEAED0F0015CB44 /* Notificacoes */ = {
+			isa = PBXGroup;
+			children = (
+				E1BF15602BEAF5030015CB44 /* Screen */,
+			);
+			path = Notificacoes;
+			sourceTree = "<group>";
+		};
+		E1BF155C2BEAED4D0015CB44 /* Privacidade */ = {
+			isa = PBXGroup;
+			children = (
+				E1BF155D2BEAF4700015CB44 /* Screen */,
+			);
+			path = Privacidade;
+			sourceTree = "<group>";
+		};
+		E1BF155D2BEAF4700015CB44 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				E1BF155E2BEAF4830015CB44 /* PrivacidadeScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		E1BF15602BEAF5030015CB44 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				E1BF15612BEAF5140015CB44 /* NotificacoesScreen.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 		E1EB07EE2BD5736E007A8D49 /* Action */ = {
@@ -928,6 +971,7 @@
 				E17678CA2B8EAAD800913490 /* FirebaseStorageCombine-Community */,
 				E1071F842BA685FC004CFCAB /* Factory */,
 				E11365992BC36E9900C58F01 /* SFSymbolsPicker */,
+				E104E8812BF005960012F086 /* SwiftUIPager */,
 			);
 			productName = Geld;
 			productReference = E17678842B8EA44D00913490 /* Geld.app */;
@@ -962,6 +1006,7 @@
 				E17678952B8EAAD700913490 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				E1071F832BA685FC004CFCAB /* XCRemoteSwiftPackageReference "Factory" */,
 				E11365982BC36E9900C58F01 /* XCRemoteSwiftPackageReference "SFSymbolsPicker" */,
+				E104E8802BF005960012F086 /* XCRemoteSwiftPackageReference "SwiftUIPager" */,
 			);
 			productRefGroup = E17678852B8EA44D00913490 /* Products */;
 			projectDirPath = "";
@@ -1024,7 +1069,9 @@
 				E1541B722BB7941400AB4184 /* PerfilRepository+Injection.swift in Sources */,
 				E12E17722BDAAFE90060100D /* PerfilHeaderView.swift in Sources */,
 				E1541B5B2BB466E600AB4184 /* CategoriaAddEditView.swift in Sources */,
+				E1BF155F2BEAF4830015CB44 /* PrivacidadeScreen.swift in Sources */,
 				E1071F972BA8B33E004CFCAB /* BancoListaScreen.swift in Sources */,
+				E1BF15622BEAF5140015CB44 /* NotificacoesScreen.swift in Sources */,
 				E1071F822BA68305004CFCAB /* ContaRepository+Injection.swift in Sources */,
 				E11365A32BC5FC0200C58F01 /* MenuPrincipalModel.swift in Sources */,
 				E16FC5212B94D08600929946 /* DateExtension.swift in Sources */,
@@ -1048,7 +1095,7 @@
 				E1541B702BB7936F00AB4184 /* PerfilRepository.swift in Sources */,
 				E1071FA32BAA5EC4004CFCAB /* AppCheck.swift in Sources */,
 				E1BF0AC32BB1FB770084D28F /* ColorExtension.swift in Sources */,
-				E1071FAC2BAB0D1C004CFCAB /* GaugeStyle.swift in Sources */,
+				E1071FAC2BAB0D1C004CFCAB /* GaugeStylePB.swift in Sources */,
 				E1541B592BB466CE00AB4184 /* CategoriaDetalheView.swift in Sources */,
 				E1071F752B9E8B83004CFCAB /* ContaModel.swift in Sources */,
 				E16FC5312B968A7000929946 /* HomeTabsScreen.swift in Sources */,
@@ -1056,13 +1103,14 @@
 				E1541B742BB7949C00AB4184 /* PerfilViewModel.swift in Sources */,
 				E11365B02BCADD8500C58F01 /* SettingsViewModel.swift in Sources */,
 				E1541B512BB3155600AB4184 /* CategoriaModel.swift in Sources */,
-				E1071FA82BAA61C1004CFCAB /* OrcamentoScreen.swift in Sources */,
+				E1071FA82BAA61C1004CFCAB /* OrcamentoCarrouselScreen.swift in Sources */,
 				E1541B782BB79A6C00AB4184 /* PerfilListaScreen.swift in Sources */,
 				E1541B7A2BB85DDF00AB4184 /* PerfilAddEditView.swift in Sources */,
 				E17678882B8EA44D00913490 /* GeldApp.swift in Sources */,
 				E1541B572BB4655900AB4184 /* CategoriaListaScreen.swift in Sources */,
 				E1071F722B9E8B0F004CFCAB /* ContaRepository.swift in Sources */,
 				E1071F882BA68937004CFCAB /* Firebase+Injection.swift in Sources */,
+				E104E8842BF01B410012F086 /* OrcamentoView.swift in Sources */,
 				E1EB07F42BD5D9D6007A8D49 /* AuthenticationViewModel.swift in Sources */,
 				E1BF0ABF2BB1DE7A0084D28F /* TransacaoHomeListaView.swift in Sources */,
 				E1EB07F22BD57779007A8D49 /* AuthenticationService+Injection.swift in Sources */,
@@ -1292,6 +1340,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		E104E8802BF005960012F086 /* XCRemoteSwiftPackageReference "SwiftUIPager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/fermoya/SwiftUIPager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.0;
+			};
+		};
 		E1071F832BA685FC004CFCAB /* XCRemoteSwiftPackageReference "Factory" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/hmlongco/Factory";
@@ -1319,6 +1375,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		E104E8812BF005960012F086 /* SwiftUIPager */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E104E8802BF005960012F086 /* XCRemoteSwiftPackageReference "SwiftUIPager" */;
+			productName = SwiftUIPager;
+		};
 		E1071F842BA685FC004CFCAB /* Factory */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = E1071F832BA685FC004CFCAB /* XCRemoteSwiftPackageReference "Factory" */;

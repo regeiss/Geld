@@ -7,9 +7,19 @@
 
 import SwiftUI
 
-struct MenuGavetaView: View 
+enum ItemGaveta
 {
-    var body: some View 
+    case privacidade
+    case notificaoes
+}
+
+struct MenuGavetaView: View
+{
+    @Environment(\.dismiss) var dismiss
+    @State private var showingSheet = false
+    @State var item: ItemGaveta = .privacidade
+
+    var body: some View
     {
         VStack
         {
@@ -17,40 +27,33 @@ struct MenuGavetaView: View
             {
                 VStack
                 {
-                    Button(action: acaoBotao) { Image(systemName: "person")
+                    Button(action: { acaoBotao(item: .notificaoes)}) { Image(systemName: "person")
                             .imageScale(.large).font(.system(size: 25.0))
                     }
-                    Text("Cartao")
+                    Text("Categorias")
                         .bold()
+                        .frame(maxWidth: .infinity)
                 }
                 Spacer()
+
                 VStack
                 {
-                    Button(action: acaoBotao) { Image(systemName: "gear")
+                    Button(action: { acaoBotao(item: .notificaoes)}) { Image(systemName: "gear")
                             .imageScale(.large).font(.system(size: 25.0))
                     }
                     Text("Ajustes")
                         .bold()
-
-
+                        .frame(maxWidth: .infinity)
                 }
                 Spacer()
+
                 VStack
                 {
-                    Button(action: acaoBotao) { Image(systemName: "person")
+                    Button(action: { acaoBotao(item: .privacidade)}) { Image(systemName: "shield")
                             .imageScale(.large).font(.system(size: 25.0))
                     }
-                    Text("Cartao")
-                        .bold()
-                }
-                Spacer()
-                VStack
-                {
-                    Button(action: acaoBotao) { Image(systemName: "person")
-                            .imageScale(.large).font(.system(size: 25.0))
-                    }
-                    Text("Cartao")
-                        .bold()
+                    Text("Privacidade")
+                        .bold().frame(maxWidth: .infinity)
                 }
             }.padding([.leading, .trailing], 35)
 
@@ -58,50 +61,54 @@ struct MenuGavetaView: View
             {
                 VStack
                 {
-                    Button(action: acaoBotao) { Image(systemName: "person")
+                    Button(action: { acaoBotao(item: .notificaoes)}) { Image(systemName: "bell.and.waves.left.and.right.fill")
+                            .imageScale(.large).font(.system(size: 25.0))
+                    }
+                    Text("Notificações")
+                        .bold()
+                        .frame(maxWidth: .infinity)
+                }
+                Spacer()
+
+                VStack
+                {
+                    Button(action: { showingSheet = true
+                        item = .notificaoes
+                         }) { Image(systemName: "building.columns.fill")
+                            .imageScale(.large).font(.system(size: 25.0))
+                    }
+                    Text("Bancos")
+                        .bold()
+                        .frame(maxWidth: .infinity)
+                }
+                Spacer()
+
+                VStack
+                {
+                    Button(action: { showingSheet = true
+                        item = .privacidade }) { Image(systemName: "person")
                             .imageScale(.large).font(.system(size: 25.0))
                     }
                     Text("Cartao")
                         .bold()
-                }
-                Spacer()
-                VStack
-                {
-                    Button(action: acaoBotao) { Image(systemName: "gear")
-                            .imageScale(.large).font(.system(size: 25.0))
-                    }
-                    Text("Ajustes")
-                        .bold()
-                }
-                Spacer()
-                VStack
-                {
-                    Button(action: acaoBotao) { Image(systemName: "person")
-                            .imageScale(.large).font(.system(size: 25.0))
-                    }
-                    Text("Cartao")
-                        .bold()
-                }
-                Spacer()
-                VStack
-                {
-                    Button(action: acaoBotao) { Image(systemName: "person")
-                            .imageScale(.large).font(.system(size: 25.0))
-                    }
-                    Text("Cartao")
-                        .bold()
+                        .frame(maxWidth: .infinity)
                 }
             }.padding([.top, .leading, .trailing], 35)
         }
+        .fullScreenCover(isPresented: $showingSheet)
+        {
+            switch item
+            {
+            case .notificaoes:
+                NotificacoesScreen()
+            case .privacidade:
+                PrivacidadeScreen(parentDismiss: dismiss)
+            }
+        }
     }
 
-    func acaoBotao()
+    func acaoBotao(item: ItemGaveta)
     {
 
     }
-}
-
-#Preview 
-{
-    MenuGavetaView()
 }

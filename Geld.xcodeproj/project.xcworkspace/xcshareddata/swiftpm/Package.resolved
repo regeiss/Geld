@@ -1,5 +1,5 @@
 {
-  "originHash" : "a4ace340ac8f1cafcca33e7658df94a7533cbd92b9b6a7bc5acf794b76b7506f",
+  "originHash" : "13ab5f1429569cb4c9c0a4cb73b304f39a81e0729d7610a82b3b4801740b9cd5",
   "pins" : [
     {
       "identity" : "abseil-cpp-binary",
@@ -134,6 +134,15 @@
       "state" : {
         "revision" : "65e8f29b2d63c4e38e736b25c27b83e012159be8",
         "version" : "1.25.2"
+      }
+    },
+    {
+      "identity" : "swiftuipager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/fermoya/SwiftUIPager.git",
+      "state" : {
+        "revision" : "4ddc04c801aac143090bb14cf26603a3bf9c74cb",
+        "version" : "2.5.0"
       }
     }
   ],
